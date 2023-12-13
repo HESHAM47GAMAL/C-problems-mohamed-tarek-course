@@ -1,0 +1,17 @@
+/*
+ * main.c
+ *
+ *  Created on: Dec 2, 2023
+ *      Author: moham
+ */
+
+#include <stdio.h>
+
+int main()
+{
+
+	char arr [5]= {};
+	printf("%c", arr[2];)
+
+	return 0;
+}

@@ -1,0 +1,26 @@
+/*
+ * main.c
+ *
+ *  Created on: Nov 27, 2023
+ *      Author: moham
+ */
+
+
+#include <stdio.h>
+
+
+int main()
+{
+	int num1 , num2 ;
+	char op  , op1;
+	printf("Enter num1 : "),fflush(stdout);
+	scanf("%d",&num1);
+	printf("Enter Operation(+ , - , * , /) : ") ,fflush(stdout);
+	scanf("%c",&op);
+	printf("num1 : %d  , op : %c",num1 , op);
+//	scanf("%d %d %c %c",&num1 ,&num2,&op,&op1);
+//	printf("output : %d %d %c %c",num1,num2,op,op1);
+
+	return 0;
+}
+

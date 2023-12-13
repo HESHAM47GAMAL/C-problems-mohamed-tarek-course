@@ -1,0 +1,32 @@
+/*
+ * main.c
+ *
+ *  Created on: Dec 8, 2023
+ *      Author: moham
+ */
+
+#include <stdio.h>
+
+void GetFreqOfChar(char [] , short []);
+
+
+int main()
+{
+	char String [30] ={};
+	short Freq[94]= {};
+
+//	printf("Enter string to count character frequency : "),fflush(stdout);
+//	scanf("%s",String);
+
+
+	return 0;
+}
+void GetFreqOfChar(char Tchar[] , short TFreq[])
+{
+	short i = 0;
+	while(Tchar[i] != '\0')
+	{
+
+	}
+}
+

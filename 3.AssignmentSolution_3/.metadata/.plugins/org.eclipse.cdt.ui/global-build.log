@@ -1,0 +1,9 @@
+06:53:43 **** Rebuild of configuration Debug for project 3.23 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o 3.23.exe main.o 
+Info: Nothing to build for 3.23
+06:54:20 **** Incremental Build of configuration Debug for project 3.23 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o 3.23.exe main.o 

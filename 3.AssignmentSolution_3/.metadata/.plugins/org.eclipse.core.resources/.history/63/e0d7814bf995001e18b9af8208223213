@@ -1,0 +1,41 @@
+/*
+ * main.c
+ *
+ *  Created on: Dec 8, 2023
+ *      Author: moham
+ */
+
+#include <stdio.h>
+
+
+void RemainAlphabetOnly(char []);
+
+int main()
+{
+	char String [50];
+	printf("Enter string to remove all characters except alphabet  : "),fflush(stdout);
+	gets(String);
+
+
+
+	return 0;
+}
+
+void RemainAlphabetOnly(char T[])
+{
+	int I = 0;
+	while(T[I] != '\0')
+	{
+		if (! ( (T[I] >= 65 && T[I] <= 90) || (T[I] >= 97 && T[I] <= 122) ) )
+		{
+			int NewI = I;
+			while(T[NewI] != '\0')
+			{
+				T[NewI] = T[NewI + 1];
+				NewI++;
+			}
+		}
+		I++;
+	}
+}
+

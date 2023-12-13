@@ -1,0 +1,39 @@
+/*
+ * main.c
+ *
+ *  Created on: Nov 29, 2023
+ *      Author: moham
+ */
+
+#include <stdio.h>
+
+int calTime(int );
+
+int main()
+{
+	int Temperature ;
+	printf("Enter Current temperature : "),fflush(stdout);
+	scanf("%d",&Temperature);
+
+
+	return 0;
+}
+
+int calTime(int val )
+{
+	switch(val)
+	{
+	case 0 ... 30 :
+		return 7;
+
+	case 30 ... 60:
+		return 5;
+	case 60 ... 90
+		return 3;
+	case 90 ... 100 :
+		return 1;
+	default :
+		return 0;
+	}
+
+}

@@ -1,0 +1,39 @@
+/*
+ * main.c
+ *
+ *  Created on: Dec 9, 2023
+ *      Author: moham
+ */
+
+#include <stdio.h>
+#define error 0
+#define sucess 1
+
+int removeDuplicates(int arr_old[], int n_old, int arr_new[], int *n_new);
+
+int main()
+{
+	int R1[] = {1,2,3,3,3,4,4,5,5,5} , R2[20];
+	int sizeR1 = sizeof(R1) / sizeof(R1[0]);
+	int sizeR2 = 0 ;
+	int result = removeDuplicates(R1 , sizeR1 , R2 , &sizeR2);s
+
+	return 0;
+}
+
+
+int removeDuplicates(int arr_old[], int n_old, int arr_new[], int *n_new)
+{
+	if(n_old == 0)
+		return error;
+	*n_new = 0 ;
+	arr_new[*n_new] = arr_old[0];
+	(*n_new)++;
+	for(short i = 1 ; i < n_old ; i++)
+	{
+		if(arr_old[i] != arr_old[i-1])
+			arr_new[(*n_new)++] = arr_old[i];
+	}
+	return sucess;
+}
+

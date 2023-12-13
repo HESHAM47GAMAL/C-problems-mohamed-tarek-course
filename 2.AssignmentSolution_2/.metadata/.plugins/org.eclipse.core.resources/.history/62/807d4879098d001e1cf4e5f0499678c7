@@ -1,0 +1,21 @@
+/*
+ * main.c
+ *
+ *  Created on: Nov 27, 2023
+ *      Author: moham
+ */
+
+
+#include <stdio.h>
+
+
+int main()
+{
+	int num1 , num2 ;
+	char op ;
+	scanf("%d %d%c",&num1 ,&num2,&op);
+	printf("output : %d %d %c",num1,num2,op);
+
+	return 0;
+}
+

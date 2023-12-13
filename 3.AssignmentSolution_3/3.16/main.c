@@ -1,0 +1,37 @@
+/*
+ * main.c
+ *
+ *  Created on: Dec 9, 2023
+ *      Author: moham
+ */
+
+#include <stdio.h>
+
+void ReverseR(int  [] , int);
+
+int main()
+{
+	int arr []= {1,2,3,4,5,6 ,7};
+	int sizeR  =  sizeof(arr)/sizeof(arr[0]);
+	ReverseR(arr ,sizeR);
+	printf("Reversed array : ");
+	for(short i = 0 ; i < sizeR ; i++)
+	{
+		printf("%d ",arr[i]);
+	}
+
+
+	return   0;
+}
+
+void ReverseR(int  T[] , int SizeR)
+{
+	int mid = SizeR / 2 ;
+	int temp;
+	for(short  i = 0 ; i < mid ; i++)
+	{
+		temp = T[i];
+		T[i] = T[SizeR - 1 - i] ;
+		T[SizeR - 1 - i]  = temp;
+	}
+}

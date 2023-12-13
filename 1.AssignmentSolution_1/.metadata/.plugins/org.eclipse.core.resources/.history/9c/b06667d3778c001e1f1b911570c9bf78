@@ -1,0 +1,20 @@
+/*
+ * main.c
+ *
+ *  Created on: Nov 26, 2023
+ *      Author: moham
+ */
+
+
+
+#include <stdio.h>
+
+char string[7]= "Heshammm";
+
+int main()
+{
+	string[6]= 'L';
+	printf("%s",string);
+
+	return 0;
+}

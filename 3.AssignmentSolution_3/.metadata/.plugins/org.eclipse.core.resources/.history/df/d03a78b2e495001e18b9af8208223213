@@ -1,0 +1,33 @@
+/*
+ * main.c
+ *
+ *  Created on: Dec 8, 2023
+ *      Author: moham
+ */
+
+#include <stdio.h>
+
+int GetStringLength(char []);
+
+int main()
+{
+	char string [50] = {};
+	printf("Enter string to get length : "),fflush(stdout);
+	gets(string);
+
+	printf("length of string : %d",GetStringLength(string));
+	fflush(stdout);
+
+	return 0;
+}
+
+int GetStringLength(char T[])
+{
+	int Counter = 0;
+	while(T[Counter] != '\0')
+	{
+		Counter++;
+	}
+//	for(; Counter != '\0' ; Counter++);
+	return Counter ;
+}

@@ -1,0 +1,17 @@
+/*
+ * main.c
+ *
+ *  Created on: Dec 8, 2023
+ *      Author: moham
+ */
+
+#include <stdio.h>
+
+int main()
+{
+	char String [50];
+	printf("Enter string to remove all characters except alphabet  : "),fflush(stdout);
+
+	return 0;
+}
+

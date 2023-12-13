@@ -1,0 +1,31 @@
+/*
+ * main.c
+ *
+ *  Created on: Nov 26, 2023
+ *      Author: moham
+ */
+
+
+
+#include <stdio.h>
+
+
+//char string[6]= "Hesham";
+//int main()
+//{
+//	string[6]= 'L';
+//	string [7] = 'M';
+//	printf("%s",string);
+//
+//	return 0;
+//}
+
+
+int main ()
+{
+	char name[15];
+	gets(name);
+	printf("%s",name);
+
+	return 0;
+}

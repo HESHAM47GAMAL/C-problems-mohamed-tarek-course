@@ -1,0 +1,24 @@
+/*
+ * main.c
+ *
+ *  Created on: Nov 23, 2023
+ *      Author: moham
+ */
+
+#include <stdio.h>
+
+int main ()
+{
+	int num ;
+	int digit = 0 ;
+	printf("Enter your number to count digits : ");
+	fflush(stdout );
+	scanf("%d",&num);
+	while(num != 0)
+	{
+		digit ++;
+		num %= 10;
+	}
+	printf("Number of digits  = %d",digit );
+
+}

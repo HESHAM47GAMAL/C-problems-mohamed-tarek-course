@@ -1,0 +1,42 @@
+/*
+ * main.c
+ *
+ *  Created on: Nov 29, 2023
+ *      Author: moham
+ */
+
+#include <stdio.h>
+#include<math.h>
+
+void FindPrimes(int , int);
+
+int main()
+{
+	int startInterval , endInterval ;
+	printf("Enter start of Interval : "),fflush(stdout);
+	scanf("%d",&startInterval);
+	printf("Enter end of Interval : "),fflush(stdout);
+	scanf("%d",&endInterval);
+	FindPrimes(startInterval,endInterval);
+
+	return 0;
+}
+
+void FindPrimes(int num1, int num2)
+{
+	for(int i = num1 ; i <= num2 ; i++)
+	{
+		int div =sqrt(num1);
+		for(short start = 2 ; start <= div ; start++)
+		{
+			if(i % start != 0)
+			{
+				printf("%d ",i),fflush(stdout);
+				break;
+			}
+		}
+
+
+	}
+
+}

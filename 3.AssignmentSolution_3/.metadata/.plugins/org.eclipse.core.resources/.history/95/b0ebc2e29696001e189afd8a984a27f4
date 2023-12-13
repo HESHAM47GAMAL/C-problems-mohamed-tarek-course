@@ -1,0 +1,57 @@
+/*
+ * main.c
+ *
+ *  Created on: Dec 9, 2023
+ *      Author: moham
+ */
+
+
+#include <stdio.h>
+
+struct Repeation
+{
+	int value;
+	int repeat;
+};
+
+struct Repeation LConsecutiveOccurrence(int [] , int);
+
+int main ()
+{
+	int R[]={1,2,2,3,3,3,3,4,4,4,4,4,4,3,3,3,3};
+	int sizeR = sizeof(R) / sizeof(R[0]);
+	struct Repeation result = LConsecutiveOccurrence(R , sizeR);
+
+	printf("number %d has max repeat = %d",result.value , result.repeat);
+
+	return 0;
+}
+
+struct Repeation LConsecutiveOccurrence(int Tarray[] , int sizeR)
+{
+	int maxCount = 0 ;
+	int currentCount = 1 ;
+	int value = Tarray[0];
+	for(short i = 1 ; i < sizeR ; i++)
+	{
+		if(Tarray[i] == Tarray[i - 1])
+		{
+			currentCount++;
+		}
+		else
+		{
+			currentCount = 1 ;
+		}
+		if(currentCount >= maxCount)
+		{
+			maxCount = currentCount;
+			value = Tarray[i];
+		}
+	}
+
+
+	struct Repeation T = {value , maxCount};
+	return T;
+}
+
+

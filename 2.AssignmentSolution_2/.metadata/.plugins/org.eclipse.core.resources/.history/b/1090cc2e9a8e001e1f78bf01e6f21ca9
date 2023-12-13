@@ -1,0 +1,19 @@
+/*
+ * main.c
+ *
+ *  Created on: Nov 29, 2023
+ *      Author: moham
+ */
+
+#include <stdio.h>
+
+int main()
+{
+	int startInterval , endInterval ;
+	printf("Enter start of Interval : "),fflush(stdout);
+	scanf("%d",&startInterval);
+	printf("Enter start of Interval : "),fflush(stdout);
+		scanf("%d",&startInterval);
+
+	return 0;
+}

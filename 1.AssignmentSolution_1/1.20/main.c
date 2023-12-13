@@ -1,0 +1,32 @@
+
+/*
+ * main.c
+ *
+ *  Created on: Nov 23, 2023
+ *      Author: moham
+ */
+
+#include <stdio.h>
+
+int main()
+{
+	int level ;
+	printf("Enter level of inverted Half primid : ");
+	fflush(stdout);
+	scanf("%d",&level);
+	for(short  i = 1 ; i <= level ; i++)
+	{
+		for(short spaces = level - i  ; spaces >= 1 ; spaces--)
+		{
+			printf(" "),fflush(stdout);
+		}
+		for(short starts = 2*i - 1 ; starts >= 1 ; starts--)
+		{
+			printf("*"),fflush(stdout);
+		}
+		printf("\n"),fflush(stdout);
+
+	}
+
+	return 0;
+}

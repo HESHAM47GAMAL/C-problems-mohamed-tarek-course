@@ -1,0 +1,26 @@
+/*
+ * main.c
+ *
+ *  Created on: Nov 29, 2023
+ *      Author: moham
+ */
+
+#include <stdio.h>
+//void countHoles(int);
+
+int main()
+{
+	int num ;
+	printf("Enter number that you want to count holes inside : "),fflush(stdout);
+	scanf("%d",&num);
+	printf("%d",counthole(5));
+
+
+	return 0;
+}
+
+int counthole(int number)
+{
+
+	return 0;
+}

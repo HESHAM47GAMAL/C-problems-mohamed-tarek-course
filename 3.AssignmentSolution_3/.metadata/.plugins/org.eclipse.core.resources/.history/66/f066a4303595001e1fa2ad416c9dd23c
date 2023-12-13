@@ -1,0 +1,49 @@
+/*
+ * main.c
+ *
+ *  Created on: Dec 7, 2023
+ *      Author: moham
+ */
+
+void BubbleSort(int [] , int );
+void Swap(int *, int *);
+
+int main()
+{
+	int R[]= {20,14,31,87,6 ,24};
+	int sizeR = sizeof(R)/ sizeof(R[0]);
+	BubbleSort(R,  sizeR);
+	printf("After apply Bubble sort : ")
+	for(short i = 0 ; i < sizeR ; i++)
+		printf("%d ", R[i]);
+
+	return 0;
+}
+
+
+void BubbleSort(int T[] , int SizeR)
+{
+	for(short i = 1 ; i < SizeR ; i++)
+	{
+		char isSwaped = 0;
+		for(short j = 0 ; j < SizeR - i ; j++ )
+		{
+			if(T[j] > T[j+1])
+			{
+				swap(&T[j] , &T[j + 1]);
+				isSwaped = 1 ;
+			}
+		}
+		if(isSwaped == 0)
+			break;
+
+	}
+}
+
+void Swap(int *V1, int *V2)
+{
+	int temp = *V1;
+	*V1 = *V2;
+	*V2 = *V1;
+}
+

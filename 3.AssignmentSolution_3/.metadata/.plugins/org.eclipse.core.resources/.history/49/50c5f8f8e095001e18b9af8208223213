@@ -1,0 +1,21 @@
+/*
+ * main.c
+ *
+ *  Created on: Dec 8, 2023
+ *      Author: moham
+ */
+
+#include <stdio.h>
+
+
+
+int main()
+{
+	char String [30];
+	printf("Enter string to count character frequency : "),fflush(stdout);
+	scanf("%s",string);
+
+	return 0;
+}
+
+

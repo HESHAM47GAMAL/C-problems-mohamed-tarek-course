@@ -1,0 +1,28 @@
+/*
+ * main.c
+ *
+ *  Created on: Nov 23, 2023
+ *      Author: moham
+ */
+
+
+#include <stdio.h>
+
+int main()
+{
+	int num1 , num2 ,num3;
+	printf("Enter num1 : ");
+	fflush(stdout);
+	scanf("%d",&num1);
+	printf("Enter num2 : ");
+	fflush(stdout);
+	scanf("%d",&num2);
+	printf("Enter num3 : ");
+	fflush(stdout);
+	scanf("%d",&num3);
+
+
+
+
+	return 0;
+}

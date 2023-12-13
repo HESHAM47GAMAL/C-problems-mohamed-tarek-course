@@ -1,0 +1,48 @@
+/*
+ * main.c
+ *
+ *  Created on: Nov 21, 2023
+ *      Author: moham
+ */
+
+#include <stdio.h>
+#include <math.h>
+//int maxValue(int n1 ,int n2  );
+
+void Increment(int [][3]);
+
+
+int main(void)
+{
+
+
+	int R[][3] ={15,2,3,4,5,6};
+//	printf("%p %p %p %p\n\n",R[0] , &R[0][0], &R[0][1] , &R[0][2]);
+//
+//	printf("%p      %p",R+1 , R[0]);
+
+//	printf("last element in array  = %p\n\n",&R[1][2]);
+//	for(short I = 0 ; I <3 ;I++)
+//	{
+//		printf("%p ",R+I);
+//	}
+	printf("Display B Inc\n");
+	fflush(stdout);
+	for(int i = 0 ; i<6 ; i++)
+		printf("%d ",*(R[0]+i)),fflush(stdout);
+	printf("\nDisplay A Inc\n");
+	fflush(stdout);
+	Increment(R);
+	for(int  i = 0 ; i<6 ; i++)
+		printf("%d ",(**(R+i))),fflush(stdout);
+
+}
+void Increment(int T[][3])
+{
+	for(short i = 0 ; i<6 ; i++)
+	{
+		*(T[0]+i)++;
+	}
+}
+
+

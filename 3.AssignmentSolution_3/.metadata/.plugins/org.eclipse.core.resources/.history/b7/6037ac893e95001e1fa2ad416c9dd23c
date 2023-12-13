@@ -1,0 +1,61 @@
+/*
+ * main.c
+ *
+ *  Created on: Dec 7, 2023
+ *      Author: moham
+ */
+
+
+#include <stdio.h>
+
+int linearSearch(int [] , int , int);
+
+int main()
+{
+	int arraySize ;
+	printf("Enter Array size : "),fflush(stdout);
+	scanf("%d", &arraySize);
+	int R [arraySize];
+
+	for(short i = 0 ; i < arraySize ; i++)
+	{
+		printf("Enter value of element %d :",i+1),fflush(stdout);
+		scanf("%d",R+i);
+	}
+
+	printf("array element : "),fflush(stdout);
+	for(short i =0 ; i <arraySize ;i++)
+	{
+		printf("%d ",R[i] ),fflush(stdout);
+	}
+
+	int valueCheck;
+	printf("\nEnter value want to check if exist in this array : "),fflush(stdout);
+	scanf("%d",&valueCheck);
+	int result = linearSearch(R,arraySize,valueCheck);
+	if(result == -1)
+	{
+		printf("Not exist "),fflush(stdout);
+	}
+	else
+	{
+		printf("exist at index %d ",result ),fflush(stdout);
+	}
+
+	return 0;
+}
+
+int linearSearch(int T[] , int SizeR , int value)
+{
+	for(short i = 0 ; i < SizeR ; i++)
+	{
+		if(T[i] == value)
+		{
+			return i ; // first index have value
+		}
+	}
+
+
+	return -1;
+}
+

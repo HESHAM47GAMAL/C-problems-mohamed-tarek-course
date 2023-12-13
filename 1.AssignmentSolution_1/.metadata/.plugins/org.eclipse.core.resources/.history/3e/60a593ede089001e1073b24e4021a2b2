@@ -1,0 +1,26 @@
+
+/*
+ * main.c
+ *
+ *  Created on: Nov 23, 2023
+ *      Author: moham
+ */
+
+#include <stdio.h>
+
+int main()
+{
+	int num1, num2;
+	char op;
+	prinf("Enter Num 1 : ");
+	fflush(stdout);
+	scanf("%d", &num1);
+	prinf("Enter Num 2 : ");
+	fflush(stdout);
+	scanf("%d", &num2);
+	prinf("Operation : ");
+	fflush(stdout);
+	scanf("%d", &op);
+
+	return 0;
+}

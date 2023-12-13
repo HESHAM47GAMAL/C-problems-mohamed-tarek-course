@@ -1,0 +1,28 @@
+/*
+ * main.c
+ *
+ *  Created on: Nov 29, 2023
+ *      Author: moham
+ */
+
+#include<stdio.h>
+
+int Fibonacci(int);
+
+int main()
+{
+	int num;
+	printf("Enter Fibonacci number :  "),fflush(stdout);
+	scanf("%d",&num);
+	printf("Result = %d",Fibonacci(num));
+
+
+	return 0;
+}
+
+int Fibonacci(int n)
+{
+	if(n == 0 || n == 1)
+		return n;
+	return Fibonacci(n-1) + Fibonacci(n-2);
+}

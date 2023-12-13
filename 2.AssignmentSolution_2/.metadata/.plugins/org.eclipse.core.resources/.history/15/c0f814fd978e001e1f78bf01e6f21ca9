@@ -1,0 +1,15 @@
+/*
+ * main.c
+ *
+ *  Created on: Nov 29, 2023
+ *      Author: moham
+ */
+
+#include<stdio.h>
+
+int main()
+{
+	printf("%d , %d",'a','A');
+
+	return 0;
+}

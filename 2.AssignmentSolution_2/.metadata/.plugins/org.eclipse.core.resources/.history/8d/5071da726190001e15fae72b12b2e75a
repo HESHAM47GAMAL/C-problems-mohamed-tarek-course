@@ -1,0 +1,49 @@
+/**************************************************************************************************
+ Name        : ex17.c
+ Author      : Mohamed Tarek
+ Description : Assignment 2 - Ex17
+ **************************************************************************************************/
+
+#include <stdio.h>
+#include <string.h>
+struct Employee;
+struct name
+{
+	char Fname[20];
+	char Lname[20];
+};
+
+struct  Employee
+{
+	char gender ;
+	double salary ;
+	int age;
+//	struct name Ename;
+}__attribute__((packed));
+
+
+//#pragma pack(1)
+
+int main()
+{
+
+	struct Employee E ={ 23 , 20000  ,'M' };
+	printf("size  = %lu\n",sizeof(E));
+	printf("%p  %p  %p\n", E , &E , &E.age );
+
+	int integer ;
+	char character;
+	float f;
+	printf("%p %p %p",&integer ,&character , &f);
+//	struct Employee * ptrE = E;
+
+//	printf("%d %lf %s %s %c",ptrE->age , ptrE->salary,ptrE->Ename.Fname , ptrE->Ename.Lname , ptrE->gender);
+
+
+//	char R1 [20]= "hesham";
+//	char R2 [20] = "shehata";
+//	printf("%s %s \n",R1 , R2);
+//
+//	R1 = R2 ;
+	return 0;
+}

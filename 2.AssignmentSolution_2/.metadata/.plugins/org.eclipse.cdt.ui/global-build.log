@@ -1,0 +1,1163 @@
+20:06:08 **** Incremental Build of configuration Debug for project 2.19 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o 2.19.exe main.o 
+Info: Nothing to build for 2.19
+Info: Nothing to build for 2.19
+Info: Nothing to build for 2.19
+20:07:35 **** Incremental Build of configuration Debug for project 2.19 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o 2.19.exe main.o 
+Info: Nothing to build for 2.19
+Info: Nothing to build for 2.19
+Info: Nothing to build for 2.19
+Info: Nothing to build for 2.19
+20:08:24 **** Incremental Build of configuration Debug for project 2.19 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o 2.19.exe main.o 
+20:10:21 **** Incremental Build of configuration Debug for project 2.19 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o 2.19.exe main.o 
+21:32:56 **** Incremental Build of configuration Debug for project test ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:24:11: error: assignment to expression with array type
+  E1.Fname = "Hesham";
+           ^
+..\main.c:25:11: error: assignment to expression with array type
+  E2.Lname = "Shehata";
+           ^
+..\main.c:26:15: warning: format '%p' expects argument of type 'void *', but argument 3 has type 'struct Employee' [-Wformat=]
+  printf("%p  %p\n",&E1 , E2);
+              ~^          ~~
+..\main.c:26:15: warning: format '%p' expects argument of type 'void *', but argument 3 has type 'struct Employee' [-Wformat=]
+..\main.c:27:11: warning: format '%p' expects argument of type 'void *', but argument 2 has type 'struct Employee' [-Wformat=]
+  printf("%p  %p\n",E1 , &E1);
+          ~^        ~~
+..\main.c:27:11: warning: format '%p' expects argument of type 'void *', but argument 2 has type 'struct Employee' [-Wformat=]
+..\main.c:29:15: warning: format '%p' expects argument of type 'void *', but argument 3 has type 'struct Employee' [-Wformat=]
+  printf("%p  %p\n",&E1 , E2);
+              ~^          ~~
+..\main.c:29:15: warning: format '%p' expects argument of type 'void *', but argument 3 has type 'struct Employee' [-Wformat=]
+21:34:09 **** Incremental Build of configuration Debug for project test ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:24:11: error: assignment to expression with array type
+  E1.Fname = "H";
+           ^
+..\main.c:25:11: error: assignment to expression with array type
+  E2.Lname = "Shehata";
+           ^
+..\main.c:26:15: warning: format '%p' expects argument of type 'void *', but argument 3 has type 'struct Employee' [-Wformat=]
+  printf("%p  %p\n",&E1 , E2);
+              ~^          ~~
+..\main.c:26:15: warning: format '%p' expects argument of type 'void *', but argument 3 has type 'struct Employee' [-Wformat=]
+..\main.c:27:11: warning: format '%p' expects argument of type 'void *', but argument 2 has type 'struct Employee' [-Wformat=]
+  printf("%p  %p\n",E1 , &E1);
+          ~^        ~~
+..\main.c:27:11: warning: format '%p' expects argument of type 'void *', but argument 2 has type 'struct Employee' [-Wformat=]
+..\main.c:29:15: warning: format '%p' expects argument of type 'void *', but argument 3 has type 'struct Employee' [-Wformat=]
+  printf("%p  %p\n",&E1 , E2);
+              ~^          ~~
+..\main.c:29:15: warning: format '%p' expects argument of type 'void *', but argument 3 has type 'struct Employee' [-Wformat=]
+21:34:43 **** Incremental Build of configuration Debug for project test ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:27:15: warning: format '%p' expects argument of type 'void *', but argument 3 has type 'struct Employee' [-Wformat=]
+  printf("%p  %p\n",&E1 , E2);
+              ~^          ~~
+..\main.c:27:15: warning: format '%p' expects argument of type 'void *', but argument 3 has type 'struct Employee' [-Wformat=]
+..\main.c:28:11: warning: format '%p' expects argument of type 'void *', but argument 2 has type 'struct Employee' [-Wformat=]
+  printf("%p  %p\n",E1 , &E1);
+          ~^        ~~
+..\main.c:28:11: warning: format '%p' expects argument of type 'void *', but argument 2 has type 'struct Employee' [-Wformat=]
+..\main.c:30:15: warning: format '%p' expects argument of type 'void *', but argument 3 has type 'struct Employee' [-Wformat=]
+  printf("%p  %p\n",&E1 , E2);
+              ~^          ~~
+..\main.c:30:15: warning: format '%p' expects argument of type 'void *', but argument 3 has type 'struct Employee' [-Wformat=]
+gcc -o test.exe main.o 
+21:37:50 **** Incremental Build of configuration Debug for project test ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:32:9: error: expected expression before '{' token
+  arr[5]={2,3,4,5,6};
+         ^
+..\main.c:31:6: warning: variable 'arr' set but not used [-Wunused-but-set-variable]
+  int arr[5]= {1,2,3,4,5};
+      ^~~
+21:38:03 **** Incremental Build of configuration Debug for project test ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:32:6: error: expected expression before '{' token
+  arr={2,3,4,5,6};
+      ^
+..\main.c:31:6: warning: variable 'arr' set but not used [-Wunused-but-set-variable]
+  int arr[5]= {1,2,3,4,5};
+      ^~~
+21:39:42 **** Incremental Build of configuration Debug for project test ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:28:15: warning: format '%p' expects argument of type 'void *', but argument 3 has type 'struct Employee' [-Wformat=]
+  printf("%p  %p\n",&E1 , E2);
+              ~^          ~~
+..\main.c:28:15: warning: format '%p' expects argument of type 'void *', but argument 3 has type 'struct Employee' [-Wformat=]
+..\main.c:29:11: warning: format '%p' expects argument of type 'void *', but argument 2 has type 'struct Employee' [-Wformat=]
+  printf("%p  %p\n",E1 , &E1);
+          ~^        ~~
+..\main.c:29:11: warning: format '%p' expects argument of type 'void *', but argument 2 has type 'struct Employee' [-Wformat=]
+..\main.c:31:15: warning: format '%p' expects argument of type 'void *', but argument 3 has type 'struct Employee' [-Wformat=]
+  printf("%p  %p\n",&E1 , E2);
+              ~^          ~~
+..\main.c:31:15: warning: format '%p' expects argument of type 'void *', but argument 3 has type 'struct Employee' [-Wformat=]
+..\main.c:30:5: warning: 'E2' is used uninitialized in this function [-Wuninitialized]
+  E1 = E2;
+  ~~~^~~~
+gcc -o test.exe main.o 
+21:40:37 **** Incremental Build of configuration Debug for project test ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:24:23: warning: unused variable 'E2' [-Wunused-variable]
+  struct Employee E1 , E2;
+                       ^~
+..\main.c:25:2: warning: 'E1.Fname' is used uninitialized in this function [-Wuninitialized]
+  printf("%s\n",E1.Fname);
+  ^~~~~~~~~~~~~~~~~~~~~~~
+gcc -o test.exe main.o 
+21:40:47 **** Incremental Build of configuration Debug for project test ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:24:23: warning: unused variable 'E2' [-Wunused-variable]
+  struct Employee E1 , E2;
+                       ^~
+..\main.c:25:2: warning: 'E1.Fname' is used uninitialized in this function [-Wuninitialized]
+  printf("name : %s\n",E1.Fname);
+  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+gcc -o test.exe main.o 
+21:41:07 **** Incremental Build of configuration Debug for project test ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:24:23: warning: unused variable 'E2' [-Wunused-variable]
+  struct Employee E1 , E2;
+                       ^~
+gcc -o test.exe main.o 
+21:41:33 **** Incremental Build of configuration Debug for project test ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:12:14: error: expected ':', ',', ';', '}' or '__attribute__' before '=' token
+  char *Fname = (void * )0;
+              ^
+..\main.c: In function 'main':
+..\main.c:25:25: error: 'struct Employee' has no member named 'Fname'
+  printf("name : %s\n",E1.Fname);
+                         ^
+..\main.c:26:4: error: 'struct Employee' has no member named 'Fname'
+  E1.Fname  = "Hesham";
+    ^
+..\main.c:24:23: warning: unused variable 'E2' [-Wunused-variable]
+  struct Employee E1 , E2;
+                       ^~
+..\main.c:24:18: warning: variable 'E1' set but not used [-Wunused-but-set-variable]
+  struct Employee E1 , E2;
+                  ^~
+21:42:04 **** Incremental Build of configuration Debug for project test ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:24:23: warning: unused variable 'E2' [-Wunused-variable]
+  struct Employee E1 , E2;
+                       ^~
+gcc -o test.exe main.o 
+Info: Nothing to build for test
+21:43:41 **** Incremental Build of configuration Debug for project test ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:28:2: warning: implicit declaration of function 'print'; did you mean 'printf'? [-Wimplicit-function-declaration]
+  print("%p %s\n",&E1.Fname ,E1.Fname);
+  ^~~~~
+  printf
+..\main.c:24:23: warning: unused variable 'E2' [-Wunused-variable]
+  struct Employee E1 , E2;
+                       ^~
+gcc -o test.exe main.o 
+main.o: In function `main':
+H:\2.work_on_myself\Embedded\Mohemed Tarek\C\2.AssignmentSolution_2\test\Debug/../main.c:28: undefined reference to `print'
+H:\2.work_on_myself\Embedded\Mohemed Tarek\C\2.AssignmentSolution_2\test\Debug/../main.c:30: undefined reference to `print'
+collect2.exe: error: ld returned 1 exit status
+21:43:57 **** Incremental Build of configuration Debug for project test ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:24:23: warning: unused variable 'E2' [-Wunused-variable]
+  struct Employee E1 , E2;
+                       ^~
+gcc -o test.exe main.o 
+21:44:19 **** Incremental Build of configuration Debug for project test ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:24:23: warning: unused variable 'E2' [-Wunused-variable]
+  struct Employee E1 , E2;
+                       ^~
+gcc -o test.exe main.o 
+21:44:40 **** Incremental Build of configuration Debug for project test ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:24:23: warning: unused variable 'E2' [-Wunused-variable]
+  struct Employee E1 , E2;
+                       ^~
+gcc -o test.exe main.o 
+21:44:52 **** Incremental Build of configuration Debug for project test ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:24:23: warning: unused variable 'E2' [-Wunused-variable]
+  struct Employee E1 , E2;
+                       ^~
+gcc -o test.exe main.o 
+Info: Nothing to build for test
+21:57:19 **** Incremental Build of configuration Debug for project test ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:16:18: error: field 'fuckE' has incomplete type
+  struct Employee fuckE;
+                  ^~~~~
+..\main.c: In function 'main':
+..\main.c:25:23: warning: unused variable 'E2' [-Wunused-variable]
+  struct Employee E1 , E2;
+                       ^~
+21:57:34 **** Incremental Build of configuration Debug for project test ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:25:23: warning: unused variable 'E2' [-Wunused-variable]
+  struct Employee E1 , E2;
+                       ^~
+gcc -o test.exe main.o 
+21:59:04 **** Incremental Build of configuration Debug for project test ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:25:23: warning: unused variable 'E2' [-Wunused-variable]
+  struct Employee E1 , E2;
+                       ^~
+gcc -o test.exe main.o 
+22:06:48 **** Incremental Build of configuration Debug for project test ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:26:11: warning: format '%p' expects argument of type 'void *', but argument 2 has type 'int' [-Wformat=]
+  printf("%p %p\n",E1.gender,E2.gender);
+          ~^       ~~~~~~~~~
+          %d
+..\main.c:26:14: warning: format '%p' expects argument of type 'void *', but argument 3 has type 'int' [-Wformat=]
+  printf("%p %p\n",E1.gender,E2.gender);
+             ~^              ~~~~~~~~~
+             %d
+..\main.c:26:11: warning: format '%p' expects argument of type 'void *', but argument 2 has type 'int' [-Wformat=]
+  printf("%p %p\n",E1.gender,E2.gender);
+          ~^       ~~~~~~~~~
+          %d
+..\main.c:26:14: warning: format '%p' expects argument of type 'void *', but argument 3 has type 'int' [-Wformat=]
+  printf("%p %p\n",E1.gender,E2.gender);
+             ~^              ~~~~~~~~~
+             %d
+..\main.c:26:31: warning: 'E2.gender' is used uninitialized in this function [-Wuninitialized]
+  printf("%p %p\n",E1.gender,E2.gender);
+                             ~~^~~~~~~
+..\main.c:26:21: warning: 'E1.gender' is used uninitialized in this function [-Wuninitialized]
+  printf("%p %p\n",E1.gender,E2.gender);
+                   ~~^~~~~~~
+gcc -o test.exe main.o 
+22:07:14 **** Incremental Build of configuration Debug for project test ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:27:11: warning: format '%p' expects argument of type 'void *', but argument 2 has type 'int' [-Wformat=]
+  printf("%p %p\n",E1.gender,E2.gender);
+          ~^       ~~~~~~~~~
+          %d
+..\main.c:27:14: warning: format '%p' expects argument of type 'void *', but argument 3 has type 'int' [-Wformat=]
+  printf("%p %p\n",E1.gender,E2.gender);
+             ~^              ~~~~~~~~~
+             %d
+..\main.c:27:11: warning: format '%p' expects argument of type 'void *', but argument 2 has type 'int' [-Wformat=]
+  printf("%p %p\n",E1.gender,E2.gender);
+          ~^       ~~~~~~~~~
+          %d
+..\main.c:27:14: warning: format '%p' expects argument of type 'void *', but argument 3 has type 'int' [-Wformat=]
+  printf("%p %p\n",E1.gender,E2.gender);
+             ~^              ~~~~~~~~~
+             %d
+gcc -o test.exe main.o 
+22:07:37 **** Incremental Build of configuration Debug for project test ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:27:11: warning: format '%p' expects argument of type 'void *', but argument 2 has type 'int' [-Wformat=]
+  printf("%p %p\n",E1.gender,E2.gender);
+          ~^       ~~~~~~~~~
+          %d
+..\main.c:27:14: warning: format '%p' expects argument of type 'void *', but argument 3 has type 'int' [-Wformat=]
+  printf("%p %p\n",E1.gender,E2.gender);
+             ~^              ~~~~~~~~~
+             %d
+..\main.c:27:11: warning: format '%p' expects argument of type 'void *', but argument 2 has type 'int' [-Wformat=]
+  printf("%p %p\n",E1.gender,E2.gender);
+          ~^       ~~~~~~~~~
+          %d
+..\main.c:27:14: warning: format '%p' expects argument of type 'void *', but argument 3 has type 'int' [-Wformat=]
+  printf("%p %p\n",E1.gender,E2.gender);
+             ~^              ~~~~~~~~~
+             %d
+gcc -o test.exe main.o 
+22:07:54 **** Incremental Build of configuration Debug for project test ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:27:11: warning: format '%p' expects argument of type 'void *', but argument 2 has type 'int' [-Wformat=]
+  printf("%p %p\n",E1.age,E2.age);
+          ~^       ~~~~~~
+          %d
+..\main.c:27:14: warning: format '%p' expects argument of type 'void *', but argument 3 has type 'int' [-Wformat=]
+  printf("%p %p\n",E1.age,E2.age);
+             ~^           ~~~~~~
+             %d
+..\main.c:27:11: warning: format '%p' expects argument of type 'void *', but argument 2 has type 'int' [-Wformat=]
+  printf("%p %p\n",E1.age,E2.age);
+          ~^       ~~~~~~
+          %d
+..\main.c:27:14: warning: format '%p' expects argument of type 'void *', but argument 3 has type 'int' [-Wformat=]
+  printf("%p %p\n",E1.age,E2.age);
+             ~^           ~~~~~~
+             %d
+..\main.c:27:2: warning: 'E2.age' is used uninitialized in this function [-Wuninitialized]
+  printf("%p %p\n",E1.age,E2.age);
+  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+..\main.c:27:2: warning: 'E1.age' is used uninitialized in this function [-Wuninitialized]
+gcc -o test.exe main.o 
+22:08:42 **** Incremental Build of configuration Debug for project test ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:27:11: warning: format '%p' expects argument of type 'void *', but argument 2 has type 'int' [-Wformat=]
+  printf("%p %p\n",E1.gender,E2.gender);
+          ~^       ~~~~~~~~~
+          %d
+..\main.c:27:14: warning: format '%p' expects argument of type 'void *', but argument 3 has type 'int' [-Wformat=]
+  printf("%p %p\n",E1.gender,E2.gender);
+             ~^              ~~~~~~~~~
+             %d
+..\main.c:27:11: warning: format '%p' expects argument of type 'void *', but argument 2 has type 'int' [-Wformat=]
+  printf("%p %p\n",E1.gender,E2.gender);
+          ~^       ~~~~~~~~~
+          %d
+..\main.c:27:14: warning: format '%p' expects argument of type 'void *', but argument 3 has type 'int' [-Wformat=]
+  printf("%p %p\n",E1.gender,E2.gender);
+             ~^              ~~~~~~~~~
+             %d
+gcc -o test.exe main.o 
+08:02:45 **** Incremental Build of configuration Debug for project test ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:24:19: warning: format '%d' expects argument of type 'int', but argument 2 has type 'long long unsigned int' [-Wformat=]
+  printf("size  = %d",sizeof(E));
+                  ~^  ~~~~~~~~~
+                  %I64d
+..\main.c:24:19: warning: format '%d' expects argument of type 'int', but argument 2 has type 'long long unsigned int' [-Wformat=]
+  printf("size  = %d",sizeof(E));
+                  ~^  ~~~~~~~~~
+                  %I64d
+gcc -o test.exe main.o 
+08:03:12 **** Incremental Build of configuration Debug for project test ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:24:20: warning: unknown conversion type character 'l' in format [-Wformat=]
+  printf("size  = %llu",sizeof(E));
+                    ^
+..\main.c:24:9: warning: too many arguments for format [-Wformat-extra-args]
+  printf("size  = %llu",sizeof(E));
+         ^~~~~~~~~~~~~~
+..\main.c:24:20: warning: unknown conversion type character 'l' in format [-Wformat=]
+  printf("size  = %llu",sizeof(E));
+                    ^
+..\main.c:24:9: warning: too many arguments for format [-Wformat-extra-args]
+  printf("size  = %llu",sizeof(E));
+         ^~~~~~~~~~~~~~
+gcc -o test.exe main.o 
+08:03:34 **** Incremental Build of configuration Debug for project test ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:24:20: warning: format '%lu' expects argument of type 'long unsigned int', but argument 2 has type 'long long unsigned int' [-Wformat=]
+  printf("size  = %lu",sizeof(E));
+                  ~~^  ~~~~~~~~~
+                  %I64u
+..\main.c:24:20: warning: format '%lu' expects argument of type 'long unsigned int', but argument 2 has type 'long long unsigned int' [-Wformat=]
+  printf("size  = %lu",sizeof(E));
+                  ~~^  ~~~~~~~~~
+                  %I64u
+gcc -o test.exe main.o 
+08:05:44 **** Incremental Build of configuration Debug for project test ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:24:20: warning: format '%lu' expects argument of type 'long unsigned int', but argument 2 has type 'long long unsigned int' [-Wformat=]
+  printf("size  = %lu",sizeof(E));
+                  ~~^  ~~~~~~~~~
+                  %I64u
+..\main.c:24:20: warning: format '%lu' expects argument of type 'long unsigned int', but argument 2 has type 'long long unsigned int' [-Wformat=]
+  printf("size  = %lu",sizeof(E));
+                  ~~^  ~~~~~~~~~
+                  %I64u
+gcc -o test.exe main.o 
+08:06:40 **** Incremental Build of configuration Debug for project test ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:24:20: warning: format '%lu' expects argument of type 'long unsigned int', but argument 2 has type 'long long unsigned int' [-Wformat=]
+  printf("size  = %lu",sizeof(E));
+                  ~~^  ~~~~~~~~~
+                  %I64u
+..\main.c:24:20: warning: format '%lu' expects argument of type 'long unsigned int', but argument 2 has type 'long long unsigned int' [-Wformat=]
+  printf("size  = %lu",sizeof(E));
+                  ~~^  ~~~~~~~~~
+                  %I64u
+gcc -o test.exe main.o 
+08:07:54 **** Incremental Build of configuration Debug for project test ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:24:20: warning: format '%lu' expects argument of type 'long unsigned int', but argument 2 has type 'long long unsigned int' [-Wformat=]
+  printf("size  = %lu",sizeof(E));
+                  ~~^  ~~~~~~~~~
+                  %I64u
+..\main.c:24:20: warning: format '%lu' expects argument of type 'long unsigned int', but argument 2 has type 'long long unsigned int' [-Wformat=]
+  printf("size  = %lu",sizeof(E));
+                  ~~^  ~~~~~~~~~
+                  %I64u
+gcc -o test.exe main.o 
+08:21:57 **** Incremental Build of configuration Debug for project test ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:25:20: warning: format '%lu' expects argument of type 'long unsigned int', but argument 2 has type 'long long unsigned int' [-Wformat=]
+  printf("size  = %lu",sizeof(E));
+                  ~~^  ~~~~~~~~~
+                  %I64u
+..\main.c:25:20: warning: format '%lu' expects argument of type 'long unsigned int', but argument 2 has type 'long long unsigned int' [-Wformat=]
+  printf("size  = %lu",sizeof(E));
+                  ~~^  ~~~~~~~~~
+                  %I64u
+gcc -o test.exe main.o 
+08:22:07 **** Incremental Build of configuration Debug for project test ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:25:20: warning: format '%lu' expects argument of type 'long unsigned int', but argument 2 has type 'long long unsigned int' [-Wformat=]
+  printf("size  = %lu",sizeof(E));
+                  ~~^  ~~~~~~~~~
+                  %I64u
+..\main.c:25:20: warning: format '%lu' expects argument of type 'long unsigned int', but argument 2 has type 'long long unsigned int' [-Wformat=]
+  printf("size  = %lu",sizeof(E));
+                  ~~^  ~~~~~~~~~
+                  %I64u
+gcc -o test.exe main.o 
+08:33:45 **** Incremental Build of configuration Debug for project test ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:16:14: error: field 'Ename' has incomplete type
+  struct name Ename;
+              ^~~~~
+..\main.c: In function 'main':
+..\main.c:32:20: warning: format '%lu' expects argument of type 'long unsigned int', but argument 2 has type 'long long unsigned int' [-Wformat=]
+  printf("size  = %lu",sizeof(E));
+                  ~~^  ~~~~~~~~~
+                  %I64u
+..\main.c:32:20: warning: format '%lu' expects argument of type 'long unsigned int', but argument 2 has type 'long long unsigned int' [-Wformat=]
+  printf("size  = %lu",sizeof(E));
+                  ~~^  ~~~~~~~~~
+                  %I64u
+08:35:59 **** Incremental Build of configuration Debug for project test ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:31:20: warning: format '%lu' expects argument of type 'long unsigned int', but argument 2 has type 'long long unsigned int' [-Wformat=]
+  printf("size  = %lu",sizeof(E));
+                  ~~^  ~~~~~~~~~
+                  %I64u
+..\main.c:31:20: warning: format '%lu' expects argument of type 'long unsigned int', but argument 2 has type 'long long unsigned int' [-Wformat=]
+  printf("size  = %lu",sizeof(E));
+                  ~~^  ~~~~~~~~~
+                  %I64u
+gcc -o test.exe main.o 
+08:36:25 **** Incremental Build of configuration Debug for project test ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:31:20: warning: format '%lu' expects argument of type 'long unsigned int', but argument 2 has type 'long long unsigned int' [-Wformat=]
+  printf("size  = %lu",sizeof(E));
+                  ~~^  ~~~~~~~~~
+                  %I64u
+..\main.c:31:20: warning: format '%lu' expects argument of type 'long unsigned int', but argument 2 has type 'long long unsigned int' [-Wformat=]
+  printf("size  = %lu",sizeof(E));
+                  ~~^  ~~~~~~~~~
+                  %I64u
+gcc -o test.exe main.o 
+08:36:37 **** Incremental Build of configuration Debug for project test ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:31:20: warning: format '%lu' expects argument of type 'long unsigned int', but argument 2 has type 'long long unsigned int' [-Wformat=]
+  printf("size  = %lu",sizeof(E));
+                  ~~^  ~~~~~~~~~
+                  %I64u
+..\main.c:31:20: warning: format '%lu' expects argument of type 'long unsigned int', but argument 2 has type 'long long unsigned int' [-Wformat=]
+  printf("size  = %lu",sizeof(E));
+                  ~~^  ~~~~~~~~~
+                  %I64u
+gcc -o test.exe main.o 
+08:38:23 **** Incremental Build of configuration Debug for project test ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:31:20: warning: format '%lu' expects argument of type 'long unsigned int', but argument 2 has type 'long long unsigned int' [-Wformat=]
+  printf("size  = %lu\n",sizeof(E));
+                  ~~^    ~~~~~~~~~
+                  %I64u
+..\main.c:31:20: warning: format '%lu' expects argument of type 'long unsigned int', but argument 2 has type 'long long unsigned int' [-Wformat=]
+  printf("size  = %lu\n",sizeof(E));
+                  ~~^    ~~~~~~~~~
+                  %I64u
+gcc -o test.exe main.o 
+08:38:52 **** Incremental Build of configuration Debug for project test ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:31:20: warning: format '%lu' expects argument of type 'long unsigned int', but argument 2 has type 'long long unsigned int' [-Wformat=]
+  printf("size  = %lu\n",sizeof(E));
+                  ~~^    ~~~~~~~~~
+                  %I64u
+..\main.c:31:20: warning: format '%lu' expects argument of type 'long unsigned int', but argument 2 has type 'long long unsigned int' [-Wformat=]
+  printf("size  = %lu\n",sizeof(E));
+                  ~~^    ~~~~~~~~~
+                  %I64u
+gcc -o test.exe main.o 
+08:39:04 **** Incremental Build of configuration Debug for project test ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:31:20: warning: format '%lu' expects argument of type 'long unsigned int', but argument 2 has type 'long long unsigned int' [-Wformat=]
+  printf("size  = %lu\n",sizeof(E));
+                  ~~^    ~~~~~~~~~
+                  %I64u
+..\main.c:31:20: warning: format '%lu' expects argument of type 'long unsigned int', but argument 2 has type 'long long unsigned int' [-Wformat=]
+  printf("size  = %lu\n",sizeof(E));
+                  ~~^    ~~~~~~~~~
+                  %I64u
+gcc -o test.exe main.o 
+08:39:29 **** Incremental Build of configuration Debug for project test ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:31:20: warning: format '%lu' expects argument of type 'long unsigned int', but argument 2 has type 'long long unsigned int' [-Wformat=]
+  printf("size  = %lu\n",sizeof(E));
+                  ~~^    ~~~~~~~~~
+                  %I64u
+..\main.c:31:20: warning: format '%lu' expects argument of type 'long unsigned int', but argument 2 has type 'long long unsigned int' [-Wformat=]
+  printf("size  = %lu\n",sizeof(E));
+                  ~~^    ~~~~~~~~~
+                  %I64u
+gcc -o test.exe main.o 
+08:39:38 **** Incremental Build of configuration Debug for project test ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:10:9: warning: alignment must be a small power of two, not 3 [-Wpragmas]
+ #pragma pack(3)
+         ^~~~
+..\main.c: In function 'main':
+..\main.c:31:20: warning: format '%lu' expects argument of type 'long unsigned int', but argument 2 has type 'long long unsigned int' [-Wformat=]
+  printf("size  = %lu\n",sizeof(E));
+                  ~~^    ~~~~~~~~~
+                  %I64u
+..\main.c:31:20: warning: format '%lu' expects argument of type 'long unsigned int', but argument 2 has type 'long long unsigned int' [-Wformat=]
+  printf("size  = %lu\n",sizeof(E));
+                  ~~^    ~~~~~~~~~
+                  %I64u
+gcc -o test.exe main.o 
+08:39:55 **** Incremental Build of configuration Debug for project test ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:31:20: warning: format '%lu' expects argument of type 'long unsigned int', but argument 2 has type 'long long unsigned int' [-Wformat=]
+  printf("size  = %lu\n",sizeof(E));
+                  ~~^    ~~~~~~~~~
+                  %I64u
+..\main.c:31:20: warning: format '%lu' expects argument of type 'long unsigned int', but argument 2 has type 'long long unsigned int' [-Wformat=]
+  printf("size  = %lu\n",sizeof(E));
+                  ~~^    ~~~~~~~~~
+                  %I64u
+gcc -o test.exe main.o 
+08:40:21 **** Incremental Build of configuration Debug for project test ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:31:20: warning: format '%lu' expects argument of type 'long unsigned int', but argument 2 has type 'long long unsigned int' [-Wformat=]
+  printf("size  = %lu\n",sizeof(E));
+                  ~~^    ~~~~~~~~~
+                  %I64u
+..\main.c:31:20: warning: format '%lu' expects argument of type 'long unsigned int', but argument 2 has type 'long long unsigned int' [-Wformat=]
+  printf("size  = %lu\n",sizeof(E));
+                  ~~^    ~~~~~~~~~
+                  %I64u
+gcc -o test.exe main.o 
+08:40:34 **** Incremental Build of configuration Debug for project test ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:31:20: warning: format '%lu' expects argument of type 'long unsigned int', but argument 2 has type 'long long unsigned int' [-Wformat=]
+  printf("size  = %lu\n",sizeof(E));
+                  ~~^    ~~~~~~~~~
+                  %I64u
+..\main.c:31:20: warning: format '%lu' expects argument of type 'long unsigned int', but argument 2 has type 'long long unsigned int' [-Wformat=]
+  printf("size  = %lu\n",sizeof(E));
+                  ~~^    ~~~~~~~~~
+                  %I64u
+..\main.c:33:11: warning: format '%p' expects argument of type 'void *', but argument 2 has type 'int' [-Wformat=]
+  printf("%p %p",E.age , E.salary);
+          ~^     ~~~~~
+          %d
+..\main.c:33:14: warning: format '%p' expects argument of type 'void *', but argument 3 has type 'double' [-Wformat=]
+  printf("%p %p",E.age , E.salary);
+             ~^          ~~~~~~~~
+             %f
+..\main.c:33:11: warning: format '%p' expects argument of type 'void *', but argument 2 has type 'int' [-Wformat=]
+  printf("%p %p",E.age , E.salary);
+          ~^     ~~~~~
+          %d
+..\main.c:33:14: warning: format '%p' expects argument of type 'void *', but argument 3 has type 'double' [-Wformat=]
+  printf("%p %p",E.age , E.salary);
+             ~^          ~~~~~~~~
+             %f
+..\main.c:33:2: warning: 'E.salary' is used uninitialized in this function [-Wuninitialized]
+  printf("%p %p",E.age , E.salary);
+  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+..\main.c:33:2: warning: 'E.age' is used uninitialized in this function [-Wuninitialized]
+gcc -o test.exe main.o 
+08:41:35 **** Incremental Build of configuration Debug for project test ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:31:20: warning: format '%lu' expects argument of type 'long unsigned int', but argument 2 has type 'long long unsigned int' [-Wformat=]
+  printf("size  = %lu\n",sizeof(E));
+                  ~~^    ~~~~~~~~~
+                  %I64u
+..\main.c:31:20: warning: format '%lu' expects argument of type 'long unsigned int', but argument 2 has type 'long long unsigned int' [-Wformat=]
+  printf("size  = %lu\n",sizeof(E));
+                  ~~^    ~~~~~~~~~
+                  %I64u
+..\main.c:33:11: warning: format '%p' expects argument of type 'void *', but argument 2 has type 'int' [-Wformat=]
+  printf("%p %p",E.age , E.salary);
+          ~^     ~~~~~
+          %d
+..\main.c:33:14: warning: format '%p' expects argument of type 'void *', but argument 3 has type 'double' [-Wformat=]
+  printf("%p %p",E.age , E.salary);
+             ~^          ~~~~~~~~
+             %f
+..\main.c:33:11: warning: format '%p' expects argument of type 'void *', but argument 2 has type 'int' [-Wformat=]
+  printf("%p %p",E.age , E.salary);
+          ~^     ~~~~~
+          %d
+..\main.c:33:14: warning: format '%p' expects argument of type 'void *', but argument 3 has type 'double' [-Wformat=]
+  printf("%p %p",E.age , E.salary);
+             ~^          ~~~~~~~~
+             %f
+gcc -o test.exe main.o 
+08:42:16 **** Incremental Build of configuration Debug for project test ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:31:20: warning: format '%lu' expects argument of type 'long unsigned int', but argument 2 has type 'long long unsigned int' [-Wformat=]
+  printf("size  = %lu\n",sizeof(E));
+                  ~~^    ~~~~~~~~~
+                  %I64u
+..\main.c:31:20: warning: format '%lu' expects argument of type 'long unsigned int', but argument 2 has type 'long long unsigned int' [-Wformat=]
+  printf("size  = %lu\n",sizeof(E));
+                  ~~^    ~~~~~~~~~
+                  %I64u
+gcc -o test.exe main.o 
+08:47:04 **** Incremental Build of configuration Debug for project test ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:31:20: warning: format '%lu' expects argument of type 'long unsigned int', but argument 2 has type 'long long unsigned int' [-Wformat=]
+  printf("size  = %lu\n",sizeof(E));
+                  ~~^    ~~~~~~~~~
+                  %I64u
+..\main.c:31:20: warning: format '%lu' expects argument of type 'long unsigned int', but argument 2 has type 'long long unsigned int' [-Wformat=]
+  printf("size  = %lu\n",sizeof(E));
+                  ~~^    ~~~~~~~~~
+                  %I64u
+..\main.c:32:27: error: incompatible types when initializing type 'struct Employee *' using type 'struct Employee'
+  struct Employee * ptrE = E;
+                           ^
+08:47:37 **** Incremental Build of configuration Debug for project test ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:31:20: warning: format '%lu' expects argument of type 'long unsigned int', but argument 2 has type 'long long unsigned int' [-Wformat=]
+  printf("size  = %lu\n",sizeof(E));
+                  ~~^    ~~~~~~~~~
+                  %I64u
+..\main.c:31:20: warning: format '%lu' expects argument of type 'long unsigned int', but argument 2 has type 'long long unsigned int' [-Wformat=]
+  printf("size  = %lu\n",sizeof(E));
+                  ~~^    ~~~~~~~~~
+                  %I64u
+gcc -o test.exe main.o 
+08:48:37 **** Incremental Build of configuration Debug for project test ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:31:20: warning: format '%lu' expects argument of type 'long unsigned int', but argument 2 has type 'long long unsigned int' [-Wformat=]
+  printf("size  = %lu\n",sizeof(E));
+                  ~~^    ~~~~~~~~~
+                  %I64u
+..\main.c:31:20: warning: format '%lu' expects argument of type 'long unsigned int', but argument 2 has type 'long long unsigned int' [-Wformat=]
+  printf("size  = %lu\n",sizeof(E));
+                  ~~^    ~~~~~~~~~
+                  %I64u
+..\main.c:34:63: error: invalid type argument of '->' (have 'struct name')
+  printf("%d %lf %s %s %c",ptrE->age , ptrE->salary,ptrE->Ename->Fname , ptrE->Ename->Lname , ptrE->gender);
+                                                               ^~
+..\main.c:34:84: error: invalid type argument of '->' (have 'struct name')
+  printf("%d %lf %s %s %c",ptrE->age , ptrE->salary,ptrE->Ename->Fname , ptrE->Ename->Lname , ptrE->gender);
+                                                                                    ^~
+08:48:55 **** Incremental Build of configuration Debug for project test ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:31:20: warning: format '%lu' expects argument of type 'long unsigned int', but argument 2 has type 'long long unsigned int' [-Wformat=]
+  printf("size  = %lu\n",sizeof(E));
+                  ~~^    ~~~~~~~~~
+                  %I64u
+..\main.c:31:20: warning: format '%lu' expects argument of type 'long unsigned int', but argument 2 has type 'long long unsigned int' [-Wformat=]
+  printf("size  = %lu\n",sizeof(E));
+                  ~~^    ~~~~~~~~~
+                  %I64u
+gcc -o test.exe main.o 
+11:12:09 **** Incremental Build of configuration Debug for project test ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:41:5: error: assignment to expression with array type
+  R1 = R2 ;
+     ^
+11:38:03 **** Incremental Build of configuration Debug for project test ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:31:20: warning: format '%lu' expects argument of type 'long unsigned int', but argument 2 has type 'long long unsigned int' [-Wformat=]
+  printf("size  = %lu\n",sizeof(E));
+                  ~~^    ~~~~~~~~~
+                  %I64u
+..\main.c:31:20: warning: format '%lu' expects argument of type 'long unsigned int', but argument 2 has type 'long long unsigned int' [-Wformat=]
+  printf("size  = %lu\n",sizeof(E));
+                  ~~^    ~~~~~~~~~
+                  %I64u
+gcc -o test.exe main.o 
+11:38:11 **** Incremental Build of configuration Debug for project test ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:31:20: warning: format '%lu' expects argument of type 'long unsigned int', but argument 2 has type 'long long unsigned int' [-Wformat=]
+  printf("size  = %lu\n",sizeof(E));
+                  ~~^    ~~~~~~~~~
+                  %I64u
+..\main.c:31:20: warning: format '%lu' expects argument of type 'long unsigned int', but argument 2 has type 'long long unsigned int' [-Wformat=]
+  printf("size  = %lu\n",sizeof(E));
+                  ~~^    ~~~~~~~~~
+                  %I64u
+..\main.c:32:27: error: incompatible types when initializing type 'struct Employee *' using type 'struct Employee'
+  struct Employee * ptrE = E;
+                           ^
+12:01:56 **** Incremental Build of configuration Debug for project test ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:31:20: warning: format '%lu' expects argument of type 'long unsigned int', but argument 2 has type 'long long unsigned int' [-Wformat=]
+  printf("size  = %lu\n",sizeof(E));
+                  ~~^    ~~~~~~~~~
+                  %I64u
+..\main.c:31:20: warning: format '%lu' expects argument of type 'long unsigned int', but argument 2 has type 'long long unsigned int' [-Wformat=]
+  printf("size  = %lu\n",sizeof(E));
+                  ~~^    ~~~~~~~~~
+                  %I64u
+..\main.c:34:30: error: 'ptrE' undeclared (first use in this function)
+  printf("%d %lf %s %s %c",E, ptrE->salary,ptrE->Ename.Fname , ptrE->Ename.Lname , ptrE->gender);
+                              ^~~~
+..\main.c:34:30: note: each undeclared identifier is reported only once for each function it appears in
+12:02:23 **** Incremental Build of configuration Debug for project test ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:31:20: warning: format '%lu' expects argument of type 'long unsigned int', but argument 2 has type 'long long unsigned int' [-Wformat=]
+  printf("size  = %lu\n",sizeof(E));
+                  ~~^    ~~~~~~~~~
+                  %I64u
+..\main.c:31:20: warning: format '%lu' expects argument of type 'long unsigned int', but argument 2 has type 'long long unsigned int' [-Wformat=]
+  printf("size  = %lu\n",sizeof(E));
+                  ~~^    ~~~~~~~~~
+                  %I64u
+..\main.c:33:11: warning: format '%p' expects argument of type 'void *', but argument 2 has type 'struct Employee' [-Wformat=]
+  printf("%p", E);
+          ~^   ~
+..\main.c:33:11: warning: format '%p' expects argument of type 'void *', but argument 2 has type 'struct Employee' [-Wformat=]
+gcc -o test.exe main.o 
+12:02:35 **** Incremental Build of configuration Debug for project test ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:31:20: warning: format '%lu' expects argument of type 'long unsigned int', but argument 2 has type 'long long unsigned int' [-Wformat=]
+  printf("size  = %lu\n",sizeof(E));
+                  ~~^    ~~~~~~~~~
+                  %I64u
+..\main.c:31:20: warning: format '%lu' expects argument of type 'long unsigned int', but argument 2 has type 'long long unsigned int' [-Wformat=]
+  printf("size  = %lu\n",sizeof(E));
+                  ~~^    ~~~~~~~~~
+                  %I64u
+..\main.c:33:11: warning: format '%d' expects argument of type 'int', but argument 2 has type 'struct Employee' [-Wformat=]
+  printf("%d", E);
+          ~^   ~
+..\main.c:33:11: warning: format '%d' expects argument of type 'int', but argument 2 has type 'struct Employee' [-Wformat=]
+gcc -o test.exe main.o 
+12:02:46 **** Incremental Build of configuration Debug for project test ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:31:20: warning: format '%lu' expects argument of type 'long unsigned int', but argument 2 has type 'long long unsigned int' [-Wformat=]
+  printf("size  = %lu\n",sizeof(E));
+                  ~~^    ~~~~~~~~~
+                  %I64u
+..\main.c:31:20: warning: format '%lu' expects argument of type 'long unsigned int', but argument 2 has type 'long long unsigned int' [-Wformat=]
+  printf("size  = %lu\n",sizeof(E));
+                  ~~^    ~~~~~~~~~
+                  %I64u
+..\main.c:32:11: warning: format '%p' expects argument of type 'void *', but argument 2 has type 'struct Employee' [-Wformat=]
+  printf("%p", E);
+          ~^   ~
+..\main.c:32:11: warning: format '%p' expects argument of type 'void *', but argument 2 has type 'struct Employee' [-Wformat=]
+gcc -o test.exe main.o 
+12:03:05 **** Incremental Build of configuration Debug for project test ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:31:20: warning: format '%lu' expects argument of type 'long unsigned int', but argument 2 has type 'long long unsigned int' [-Wformat=]
+  printf("size  = %lu\n",sizeof(E));
+                  ~~^    ~~~~~~~~~
+                  %I64u
+..\main.c:31:20: warning: format '%lu' expects argument of type 'long unsigned int', but argument 2 has type 'long long unsigned int' [-Wformat=]
+  printf("size  = %lu\n",sizeof(E));
+                  ~~^    ~~~~~~~~~
+                  %I64u
+..\main.c:32:11: warning: format '%p' expects argument of type 'void *', but argument 2 has type 'struct Employee' [-Wformat=]
+  printf("%p  %p", E , &E);
+          ~^       ~
+..\main.c:32:11: warning: format '%p' expects argument of type 'void *', but argument 2 has type 'struct Employee' [-Wformat=]
+gcc -o test.exe main.o 
+12:03:51 **** Incremental Build of configuration Debug for project test ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:31:20: warning: format '%lu' expects argument of type 'long unsigned int', but argument 2 has type 'long long unsigned int' [-Wformat=]
+  printf("size  = %lu\n",sizeof(E));
+                  ~~^    ~~~~~~~~~
+                  %I64u
+..\main.c:31:20: warning: format '%lu' expects argument of type 'long unsigned int', but argument 2 has type 'long long unsigned int' [-Wformat=]
+  printf("size  = %lu\n",sizeof(E));
+                  ~~^    ~~~~~~~~~
+                  %I64u
+..\main.c:32:11: warning: format '%p' expects argument of type 'void *', but argument 2 has type 'struct Employee' [-Wformat=]
+  printf("%p  %p", E , &E  );
+          ~^       ~
+..\main.c:32:11: warning: format '%p' expects argument of type 'void *', but argument 2 has type 'struct Employee' [-Wformat=]
+gcc -o test.exe main.o 
+12:04:41 **** Incremental Build of configuration Debug for project test ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:31:20: warning: format '%lu' expects argument of type 'long unsigned int', but argument 2 has type 'long long unsigned int' [-Wformat=]
+  printf("size  = %lu\n",sizeof(E));
+                  ~~^    ~~~~~~~~~
+                  %I64u
+..\main.c:31:20: warning: format '%lu' expects argument of type 'long unsigned int', but argument 2 has type 'long long unsigned int' [-Wformat=]
+  printf("size  = %lu\n",sizeof(E));
+                  ~~^    ~~~~~~~~~
+                  %I64u
+..\main.c:32:11: warning: format '%p' expects argument of type 'void *', but argument 2 has type 'struct Employee' [-Wformat=]
+  printf("%p  %p  %p", E , &E , &E.age );
+          ~^           ~
+..\main.c:32:11: warning: format '%p' expects argument of type 'void *', but argument 2 has type 'struct Employee' [-Wformat=]
+gcc -o test.exe main.o 
+15:32:52 **** Incremental Build of configuration Debug for project test ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:31:20: warning: format '%lu' expects argument of type 'long unsigned int', but argument 2 has type 'long long unsigned int' [-Wformat=]
+  printf("size  = %lu\n",sizeof(E));
+                  ~~^    ~~~~~~~~~
+                  %I64u
+..\main.c:31:20: warning: format '%lu' expects argument of type 'long unsigned int', but argument 2 has type 'long long unsigned int' [-Wformat=]
+  printf("size  = %lu\n",sizeof(E));
+                  ~~^    ~~~~~~~~~
+                  %I64u
+..\main.c:32:11: warning: format '%p' expects argument of type 'void *', but argument 2 has type 'struct Employee' [-Wformat=]
+  printf("%p  %p  %p", E , &E , &E.age );
+          ~^           ~
+..\main.c:32:11: warning: format '%p' expects argument of type 'void *', but argument 2 has type 'struct Employee' [-Wformat=]
+gcc -o test.exe main.o 
+15:33:01 **** Incremental Build of configuration Debug for project test ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:31:20: warning: format '%lu' expects argument of type 'long unsigned int', but argument 2 has type 'long long unsigned int' [-Wformat=]
+  printf("size  = %lu\n",sizeof(E));
+                  ~~^    ~~~~~~~~~
+                  %I64u
+..\main.c:31:20: warning: format '%lu' expects argument of type 'long unsigned int', but argument 2 has type 'long long unsigned int' [-Wformat=]
+  printf("size  = %lu\n",sizeof(E));
+                  ~~^    ~~~~~~~~~
+                  %I64u
+..\main.c:32:11: warning: format '%p' expects argument of type 'void *', but argument 2 has type 'struct Employee' [-Wformat=]
+  printf("%p  %p  %p", E , &E , &E.age );
+          ~^           ~
+..\main.c:32:11: warning: format '%p' expects argument of type 'void *', but argument 2 has type 'struct Employee' [-Wformat=]
+gcc -o test.exe main.o 
+15:33:06 **** Incremental Build of configuration Debug for project test ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:31:20: warning: format '%lu' expects argument of type 'long unsigned int', but argument 2 has type 'long long unsigned int' [-Wformat=]
+  printf("size  = %lu\n",sizeof(E));
+                  ~~^    ~~~~~~~~~
+                  %I64u
+..\main.c:31:20: warning: format '%lu' expects argument of type 'long unsigned int', but argument 2 has type 'long long unsigned int' [-Wformat=]
+  printf("size  = %lu\n",sizeof(E));
+                  ~~^    ~~~~~~~~~
+                  %I64u
+..\main.c:32:11: warning: format '%p' expects argument of type 'void *', but argument 2 has type 'struct Employee' [-Wformat=]
+  printf("%p  %p  %p", E , &E , &E.age );
+          ~^           ~
+..\main.c:32:11: warning: format '%p' expects argument of type 'void *', but argument 2 has type 'struct Employee' [-Wformat=]
+gcc -o test.exe main.o 
+15:59:55 **** Incremental Build of configuration Debug for project test ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:31:20: warning: format '%lu' expects argument of type 'long unsigned int', but argument 2 has type 'long long unsigned int' [-Wformat=]
+  printf("size  = %lu\n",sizeof(E));
+                  ~~^    ~~~~~~~~~
+                  %I64u
+..\main.c:31:20: warning: format '%lu' expects argument of type 'long unsigned int', but argument 2 has type 'long long unsigned int' [-Wformat=]
+  printf("size  = %lu\n",sizeof(E));
+                  ~~^    ~~~~~~~~~
+                  %I64u
+..\main.c:32:11: warning: format '%p' expects argument of type 'void *', but argument 2 has type 'struct Employee' [-Wformat=]
+  printf("%p  %p  %p", E , &E , &E.age );
+          ~^           ~
+..\main.c:32:11: warning: format '%p' expects argument of type 'void *', but argument 2 has type 'struct Employee' [-Wformat=]
+gcc -o test.exe main.o 
+16:00:01 **** Incremental Build of configuration Debug for project test ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:31:20: warning: format '%lu' expects argument of type 'long unsigned int', but argument 2 has type 'long long unsigned int' [-Wformat=]
+  printf("size  = %lu\n",sizeof(E));
+                  ~~^    ~~~~~~~~~
+                  %I64u
+..\main.c:31:20: warning: format '%lu' expects argument of type 'long unsigned int', but argument 2 has type 'long long unsigned int' [-Wformat=]
+  printf("size  = %lu\n",sizeof(E));
+                  ~~^    ~~~~~~~~~
+                  %I64u
+..\main.c:32:11: warning: format '%p' expects argument of type 'void *', but argument 2 has type 'struct Employee' [-Wformat=]
+  printf("%p  %p  %p\n", E , &E , &E.age );
+          ~^             ~
+..\main.c:32:11: warning: format '%p' expects argument of type 'void *', but argument 2 has type 'struct Employee' [-Wformat=]
+gcc -o test.exe main.o 
+16:01:15 **** Incremental Build of configuration Debug for project test ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:31:20: warning: format '%lu' expects argument of type 'long unsigned int', but argument 2 has type 'long long unsigned int' [-Wformat=]
+  printf("size  = %lu\n",sizeof(E));
+                  ~~^    ~~~~~~~~~
+                  %I64u
+..\main.c:31:20: warning: format '%lu' expects argument of type 'long unsigned int', but argument 2 has type 'long long unsigned int' [-Wformat=]
+  printf("size  = %lu\n",sizeof(E));
+                  ~~^    ~~~~~~~~~
+                  %I64u
+..\main.c:32:11: warning: format '%p' expects argument of type 'void *', but argument 2 has type 'struct Employee' [-Wformat=]
+  printf("%p  %p  %p\n", E , &E , &E.age );
+          ~^             ~
+..\main.c:32:11: warning: format '%p' expects argument of type 'void *', but argument 2 has type 'struct Employee' [-Wformat=]
+gcc -o test.exe main.o 
+20:16:56 **** Incremental Build of configuration Debug for project test ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:31:20: warning: format '%lu' expects argument of type 'long unsigned int', but argument 2 has type 'long long unsigned int' [-Wformat=]
+  printf("size  = %lu\n",sizeof(E));
+                  ~~^    ~~~~~~~~~
+                  %I64u
+..\main.c:31:20: warning: format '%lu' expects argument of type 'long unsigned int', but argument 2 has type 'long long unsigned int' [-Wformat=]
+  printf("size  = %lu\n",sizeof(E));
+                  ~~^    ~~~~~~~~~
+                  %I64u
+..\main.c:32:11: warning: format '%p' expects argument of type 'void *', but argument 2 has type 'struct Employee' [-Wformat=]
+  printf("%p  %p  %p\n", E , &E , &E.age );
+          ~^             ~
+..\main.c:32:11: warning: format '%p' expects argument of type 'void *', but argument 2 has type 'struct Employee' [-Wformat=]
+gcc -o test.exe main.o 
+20:17:16 **** Incremental Build of configuration Debug for project test ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:31:20: warning: format '%lu' expects argument of type 'long unsigned int', but argument 2 has type 'long long unsigned int' [-Wformat=]
+  printf("size  = %lu\n",sizeof(E));
+                  ~~^    ~~~~~~~~~
+                  %I64u
+..\main.c:31:20: warning: format '%lu' expects argument of type 'long unsigned int', but argument 2 has type 'long long unsigned int' [-Wformat=]
+  printf("size  = %lu\n",sizeof(E));
+                  ~~^    ~~~~~~~~~
+                  %I64u
+..\main.c:32:11: warning: format '%p' expects argument of type 'void *', but argument 2 has type 'struct Employee' [-Wformat=]
+  printf("%p  %p  %p\n", E , &E , &E.age );
+          ~^             ~
+..\main.c:32:11: warning: format '%p' expects argument of type 'void *', but argument 2 has type 'struct Employee' [-Wformat=]
+gcc -o test.exe main.o 
+20:17:21 **** Incremental Build of configuration Debug for project test ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:31:20: warning: format '%lu' expects argument of type 'long unsigned int', but argument 2 has type 'long long unsigned int' [-Wformat=]
+  printf("size  = %lu\n",sizeof(E));
+                  ~~^    ~~~~~~~~~
+                  %I64u
+..\main.c:31:20: warning: format '%lu' expects argument of type 'long unsigned int', but argument 2 has type 'long long unsigned int' [-Wformat=]
+  printf("size  = %lu\n",sizeof(E));
+                  ~~^    ~~~~~~~~~
+                  %I64u
+..\main.c:32:11: warning: format '%p' expects argument of type 'void *', but argument 2 has type 'struct Employee' [-Wformat=]
+  printf("%p  %p  %p\n", E , &E , &E.age );
+          ~^             ~
+..\main.c:32:11: warning: format '%p' expects argument of type 'void *', but argument 2 has type 'struct Employee' [-Wformat=]
+gcc -o test.exe main.o 
+20:37:33 **** Incremental Build of configuration Debug for project test ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:31:20: warning: format '%lu' expects argument of type 'long unsigned int', but argument 2 has type 'long long unsigned int' [-Wformat=]
+  printf("size  = %lu\n",sizeof(E));
+                  ~~^    ~~~~~~~~~
+                  %I64u
+..\main.c:31:20: warning: format '%lu' expects argument of type 'long unsigned int', but argument 2 has type 'long long unsigned int' [-Wformat=]
+  printf("size  = %lu\n",sizeof(E));
+                  ~~^    ~~~~~~~~~
+                  %I64u
+..\main.c:32:11: warning: format '%p' expects argument of type 'void *', but argument 2 has type 'struct Employee' [-Wformat=]
+  printf("%p  %p  %p\n", E , &E , &E.age );
+          ~^             ~
+..\main.c:32:11: warning: format '%p' expects argument of type 'void *', but argument 2 has type 'struct Employee' [-Wformat=]
+gcc -o test.exe main.o 
+20:37:43 **** Incremental Build of configuration Debug for project test ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:31:20: warning: format '%lu' expects argument of type 'long unsigned int', but argument 2 has type 'long long unsigned int' [-Wformat=]
+  printf("size  = %lu\n",sizeof(E));
+                  ~~^    ~~~~~~~~~
+                  %I64u
+..\main.c:31:20: warning: format '%lu' expects argument of type 'long unsigned int', but argument 2 has type 'long long unsigned int' [-Wformat=]
+  printf("size  = %lu\n",sizeof(E));
+                  ~~^    ~~~~~~~~~
+                  %I64u
+..\main.c:32:11: warning: format '%p' expects argument of type 'void *', but argument 2 has type 'struct Employee' [-Wformat=]
+  printf("%p  %p  %p\n", E , &E , &E.age );
+          ~^             ~
+..\main.c:32:11: warning: format '%p' expects argument of type 'void *', but argument 2 has type 'struct Employee' [-Wformat=]
+gcc -o test.exe main.o 
+17:51:11 **** Incremental Build of configuration Debug for project test ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:26:24: warning: format '%d' expects argument of type 'int', but argument 2 has type 'long long unsigned int' [-Wformat=]
+  printf("union size = %d",sizeof(D1));
+                       ~^  ~~~~~~~~~~
+                       %I64d
+..\main.c:26:24: warning: format '%d' expects argument of type 'int', but argument 2 has type 'long long unsigned int' [-Wformat=]
+  printf("union size = %d",sizeof(D1));
+                       ~^  ~~~~~~~~~~
+                       %I64d
+gcc -o test.exe main.o 
+17:52:11 **** Incremental Build of configuration Debug for project test ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:26:24: warning: format '%d' expects argument of type 'int', but argument 2 has type 'long long unsigned int' [-Wformat=]
+  printf("union size = %d",sizeof(D1));
+                       ~^  ~~~~~~~~~~
+                       %I64d
+..\main.c:26:24: warning: format '%d' expects argument of type 'int', but argument 2 has type 'long long unsigned int' [-Wformat=]
+  printf("union size = %d",sizeof(D1));
+                       ~^  ~~~~~~~~~~
+                       %I64d
+gcc -o test.exe main.o 
+17:54:25 **** Incremental Build of configuration Debug for project test ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:26:24: warning: format '%d' expects argument of type 'int', but argument 2 has type 'long long unsigned int' [-Wformat=]
+  printf("union size = %d",sizeof(D1));
+                       ~^  ~~~~~~~~~~
+                       %I64d
+..\main.c:26:24: warning: format '%d' expects argument of type 'int', but argument 2 has type 'long long unsigned int' [-Wformat=]
+  printf("union size = %d",sizeof(D1));
+                       ~^  ~~~~~~~~~~
+                       %I64d
+gcc -o test.exe main.o 
+17:54:45 **** Incremental Build of configuration Debug for project test ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:25:11: warning: format '%s' expects argument of type 'char *', but argument 2 has type 'int' [-Wformat=]
+  printf("%s\n",D1.C),fflush(stdout);
+          ~^    ~~~~
+          %d
+..\main.c:25:11: warning: format '%s' expects argument of type 'char *', but argument 2 has type 'int' [-Wformat=]
+  printf("%s\n",D1.C),fflush(stdout);
+          ~^    ~~~~
+          %d
+..\main.c:26:24: warning: format '%d' expects argument of type 'int', but argument 2 has type 'long long unsigned int' [-Wformat=]
+  printf("union size = %d",sizeof(D1));
+                       ~^  ~~~~~~~~~~
+                       %I64d
+..\main.c:26:24: warning: format '%d' expects argument of type 'int', but argument 2 has type 'long long unsigned int' [-Wformat=]
+  printf("union size = %d",sizeof(D1));
+                       ~^  ~~~~~~~~~~
+                       %I64d
+gcc -o test.exe main.o 
+Info: Nothing to build for test

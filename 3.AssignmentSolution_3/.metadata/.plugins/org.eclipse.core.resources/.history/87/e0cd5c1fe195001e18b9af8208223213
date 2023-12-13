@@ -1,0 +1,25 @@
+/*
+ * main.c
+ *
+ *  Created on: Dec 8, 2023
+ *      Author: moham
+ */
+
+#include <stdio.h>
+
+int GetFreqOfChar();
+
+
+int main()
+{
+	char String [30];
+	short Freq[95]= {};
+	printf("Size of arr = %d",sizeof(String));
+//	printf("Enter string to count character frequency : "),fflush(stdout);
+//	scanf("%s",String);
+
+
+	return 0;
+}
+
+

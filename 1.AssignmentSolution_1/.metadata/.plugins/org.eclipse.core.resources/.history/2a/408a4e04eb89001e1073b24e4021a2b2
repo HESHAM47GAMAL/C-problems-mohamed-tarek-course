@@ -1,0 +1,25 @@
+/*
+ * main.c
+ *
+ *  Created on: Nov 23, 2023
+ *      Author: moham
+ */
+
+#include <stdio.h>
+
+int main()
+{
+	int level ;
+	scanf("%d",&level);
+	for(short i = 1; i <= level ; i++)
+	{
+		for(short starts = 1 ; starts <= i ; starts++)
+		{
+			printf("*");
+			fflush(stdout);
+		}
+	}
+
+	return 0;
+}
+

@@ -1,0 +1,33 @@
+/*
+ * main.c
+ *
+ *  Created on: Nov 21, 2023
+ *      Author: moham
+ */
+
+#include <stdio.h>
+#include <math.h>
+//int maxValue(int n1 ,int n2  );
+
+void Increment(int [][3]);
+
+
+int main(void)
+{
+
+
+	int R[][3] ={1,2,3,4,5,6};
+	Increment(R);
+	for(short i = 0 ; i<6 ; i++)
+		printf("%d ",**(R+i));
+
+}
+void Increment(int T[][3])
+{
+	for(short i = 0 ; i<6 ; i++)
+	{
+		(**(T+i))++;
+	}
+}
+
+

@@ -1,0 +1,28 @@
+/**************************************************************************************************
+ Name        : ex17.c
+ Author      : Mohamed Tarek
+ Description : Assignment 2 - Ex17
+ **************************************************************************************************/
+
+#include <stdio.h>
+#include <string.h>
+struct Employee;
+
+struct Employee
+{
+	double salary ;
+	int age;
+	char gender ;
+};
+
+
+
+int main()
+{
+
+	struct Employee E;
+	printf("size  = %lu",sizeof(E));
+
+
+	return 0;
+}

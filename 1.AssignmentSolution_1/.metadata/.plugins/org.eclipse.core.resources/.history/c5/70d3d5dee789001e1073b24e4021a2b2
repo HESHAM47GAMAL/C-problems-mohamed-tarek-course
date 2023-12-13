@@ -1,0 +1,31 @@
+/*
+ * main.c
+ *
+ *  Created on: Nov 23, 2023
+ *      Author: moham
+ */
+
+
+#include <stdio.h>
+
+int main()
+{
+	int base , power;
+	long result = 1;
+	printf("Enter base : ");
+	fflush(stdout);
+	scanf("%d",&base);
+	printf("Enter power : ");
+	fflush(stdout);
+	scanf("%d",&power);
+	for(short i=1 ; i<= power;i++)
+	{
+		result *= base;
+	}
+
+	printf("pow(%d,%d) = %d",base,power,result);
+
+
+
+	return 0;
+}

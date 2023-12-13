@@ -1,0 +1,17 @@
+/*
+ * main.c
+ *
+ *  Created on: Dec 9, 2023
+ *      Author: moham
+ */
+
+#include <stdio.h>
+
+int main()
+{
+	int R1[] = {1,2,3,3,3,4,4,5,5,5} , R2[20];
+	int sizeR1 = sizeof(R1) / sizeof(R1[0]);
+
+	return 0;
+}
+

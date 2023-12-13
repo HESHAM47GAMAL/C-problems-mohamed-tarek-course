@@ -1,0 +1,7 @@
+14:39:38 **** Incremental Build of configuration Debug for project 3.9.1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o 3.9.1.exe main.o 
+
+14:39:38 Build Finished. 0 errors, 0 warnings. (took 289ms)
+

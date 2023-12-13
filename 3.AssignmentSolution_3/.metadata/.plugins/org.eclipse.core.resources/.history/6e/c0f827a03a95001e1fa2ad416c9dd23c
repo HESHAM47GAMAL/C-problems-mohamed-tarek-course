@@ -1,0 +1,20 @@
+/*
+ * main.c
+ *
+ *  Created on: Dec 7, 2023
+ *      Author: moham
+ */
+
+#include <stdio.h>
+
+int main()
+{
+	int arraySize ;
+	printf("Enter Array size : "),fflush(stdout);
+	scanf("%d", &arraySize);
+	int R [arraySize];
+
+	return 0;
+}
+
+

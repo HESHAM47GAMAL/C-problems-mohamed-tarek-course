@@ -1,0 +1,36 @@
+/*
+ * main.c
+ *
+ *  Created on: Nov 23, 2023
+ *      Author: moham
+ */
+
+#include <stdio.h>
+
+int main()
+{
+	int grade ;
+	printf("Enter your grade : ");
+	fflush(stdout);
+	scanf("%d",&grade);
+	switch(grade)
+	{
+	case 100 ... 85:
+		printf("Excellent");
+		break;
+	case 84 ... 75:
+		printf("Very Good");
+		break;
+	case 74 ... 65 :
+		printf("Good");
+		break;
+	case 64 ... 50:
+		printf("Pass");
+		break;
+	default :
+		printf("Fail");
+
+	}
+
+	return 0;
+}

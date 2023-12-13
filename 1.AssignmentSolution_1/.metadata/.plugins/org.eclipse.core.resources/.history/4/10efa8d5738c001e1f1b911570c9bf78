@@ -1,0 +1,40 @@
+/*
+ * main.c
+ *
+ *  Created on: Nov 21, 2023
+ *      Author: moham
+ */
+
+#include <stdio.h>
+#include <math.h>
+//int maxValue(int n1 ,int n2  );
+
+void Increment(int [][3]);
+
+
+int main(void)
+{
+
+
+	int R[][3] ={15,2,3,4,5,6};
+	printf("Display B Inc\n");
+	fflush(stdout);
+	for(int i = 0 ; i<2 ; i++)
+		for(short j = 0; j <3;j++)
+		printf("%p ",&R[i][j]),fflush(stdout);
+	printf("\nDisplay A Inc\n");
+	fflush(stdout);
+//	Increment(R);
+	for(int  i = 0 ; i<6 ; i++)
+		printf("%d ",(**(R+i))),fflush(stdout);
+
+}
+void Increment(int T[][3])
+{
+	for(short i = 0 ; i<6 ; i++)
+	{
+		(**(T+i))++;
+	}
+}
+
+

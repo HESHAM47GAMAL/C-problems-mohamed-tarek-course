@@ -1,0 +1,22 @@
+/*
+ * main.c
+ *
+ *  Created on: Nov 26, 2023
+ *      Author: moham
+ */
+
+
+
+#include <stdio.h>
+
+
+int main()
+{
+char string[7]= "Hesham";
+	string[6]= 'L';
+	 string[6] = 'L';
+	    string[7] = '\0';  // Add null-terminator
+	printf("%s",string);
+
+	return 0;
+}

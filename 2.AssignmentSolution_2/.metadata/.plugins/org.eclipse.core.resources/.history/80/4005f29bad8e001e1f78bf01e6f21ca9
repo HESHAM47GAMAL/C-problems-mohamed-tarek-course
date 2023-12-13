@@ -1,0 +1,19 @@
+/*
+ * main.c
+ *
+ *  Created on: Nov 29, 2023
+ *      Author: moham
+ */
+
+#include <stdio.h>
+
+void Ispower2(int);
+
+int main()
+{
+	int num ;
+	printf("Enter number to check power of 2 : "),fflush(stdout);
+	scanf("%d",&num);
+
+	return 0;
+}

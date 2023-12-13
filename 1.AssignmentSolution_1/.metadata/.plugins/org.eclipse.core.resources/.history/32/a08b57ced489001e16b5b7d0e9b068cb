@@ -1,0 +1,20 @@
+
+/*
+ * main.c
+ *
+ *  Created on: Nov 23, 2023
+ *      Author: moham
+ */
+
+
+#include <stdio.h>
+
+int main()
+{
+	double c;
+	printf("Enter s Celsius degree : ");
+	fflush(stdout);
+	scanf("%lf",&c);
+
+	return  0;
+}

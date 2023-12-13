@@ -1,0 +1,31 @@
+/*
+ * main.c
+ *
+ *  Created on: Nov 29, 2023
+ *      Author: moham
+ */
+
+#include <stdio.h>
+
+char calOnes(unsigned char );
+
+int main()
+{
+	unsigned char  Value= 0x11;
+	printf("Number of ones in %x = %hi", Value ,(signed short) calOnes(Value) );
+
+
+	return 0;
+}
+
+char calOnes(unsigned char  N)
+{
+	unsigned char  mask = 0x80;
+	char count = 0 ;
+	for(short i = 0 ; i < 8 ; i++)
+	{
+		if( (N << i) & mask )
+			count++;
+	}
+	return count;
+}

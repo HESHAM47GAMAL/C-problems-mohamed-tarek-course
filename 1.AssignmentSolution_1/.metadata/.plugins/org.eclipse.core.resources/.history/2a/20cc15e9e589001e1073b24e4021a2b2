@@ -1,0 +1,26 @@
+/*
+ * main.c
+ *
+ *  Created on: Nov 23, 2023
+ *      Author: moham
+ */
+
+#include <stdio.h>
+#include <cmath.h>
+int main()
+{
+	int number ;
+	printf("Enter number want to check is Prime : ");
+	fflush(stdout);
+	scanf("%d",&number);
+	int div =  sqrt(number);
+	for(short checker = 2 ; checker <= div ; checker++)
+	{
+		if(number % checker == 0)
+		{
+			printf("It's prime number ");
+			break;
+		}
+	}
+	return 0;
+}

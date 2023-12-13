@@ -1,0 +1,32 @@
+/*
+ * main.c
+ *
+ *  Created on: Dec 7, 2023
+ *      Author: moham
+ */
+
+#include <stdio.h>
+
+int main()
+{
+	int arraySize ;
+	printf("Enter Array size : "),fflush(stdout);
+	scanf("%d", &arraySize);
+	int R [arraySize];
+
+	for(short i = 0 ; i < arraySize ; i++)
+	{
+		printf("Enter value of element %d :",i+1),fflush(stdout);
+		scanf("%d",R+i);
+	}
+
+	printf("array element : "),fflush(stdout);
+	for(short i =0 ; i <arraySize ;i++)
+	{
+		printf("%d ",R[i] );
+	}
+
+	return 0;
+}
+
+

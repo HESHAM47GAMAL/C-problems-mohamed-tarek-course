@@ -1,0 +1,25 @@
+/*
+ * main.c
+ *
+ *  Created on: Nov 21, 2023
+ *      Author: moham
+ */
+
+#include <stdio.h>
+#include <math.h>
+//int maxValue(int n1 ,int n2  );
+
+
+int main(void)
+{
+
+
+	int R[5]= {1,2,3,4,5,16,17,18};
+
+	for(short i = 0; i < 6 ; i++)
+	{
+		printf("%d ",*(R+i));
+	}
+}
+
+

@@ -1,0 +1,43 @@
+
+/*
+ * main.c
+ *
+ *  Created on: Nov 23, 2023
+ *      Author: moham
+ */
+
+#include <stdio.h>
+
+int main()
+{
+	int num1, num2;
+	char op;
+	printf("Enter Num 1 : ");
+	fflush(stdout);
+	scanf("%d", &num1);
+	printf("Enter Num 2 : ");
+	fflush(stdout);
+	scanf("%d", &num2);
+	printf("Operation : ");
+	fflush(stdout);
+	scanf("%d", &op);
+	switch(op)
+	{
+
+	case '+':
+		printf("result  = %d",num1 + num2);
+		break ;
+	case '-':
+		printf("result = %d",num1 - num2);
+		break ;
+	case '*':
+		printf("result = %d",num1 * num2);
+		break;
+	case '/':
+		printf("result = %d",num1 / num2);
+
+	}
+	fflush(stdout);
+
+	return 0;
+}

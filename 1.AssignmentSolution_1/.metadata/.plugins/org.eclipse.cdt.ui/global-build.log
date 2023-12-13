@@ -1,0 +1,280 @@
+18:00:50 **** Rebuild of configuration Debug for project test2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o test2.exe main.o 
+Info: Nothing to build for test2
+Info: Nothing to build for Test
+18:05:04 **** Incremental Build of configuration Debug for project Test ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:19:14: warning: missing braces around initializer [-Wmissing-braces]
+  int R[][3] ={15,2,3,4,5,6};
+              ^
+               {     }{    }
+gcc -o Test.exe main.o 
+18:05:44 **** Incremental Build of configuration Debug for project Test ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:19:14: warning: missing braces around initializer [-Wmissing-braces]
+  int R[][3] ={15,2,3,4,5,6};
+              ^
+               {     }{    }
+gcc -o Test.exe main.o 
+18:06:15 **** Incremental Build of configuration Debug for project Test ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:19:14: warning: missing braces around initializer [-Wmissing-braces]
+  int R[][3] ={15,2,3,4,5,6};
+              ^
+               {     }{    }
+gcc -o Test.exe main.o 
+18:07:35 **** Incremental Build of configuration Debug for project Test ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:19:14: warning: missing braces around initializer [-Wmissing-braces]
+  int R[][3] ={15,2,3,4,5,6};
+              ^
+               {     }{    }
+gcc -o Test.exe main.o 
+18:09:08 **** Incremental Build of configuration Debug for project Test ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:19:14: warning: missing braces around initializer [-Wmissing-braces]
+  int R[][3] ={15,2,3,4,5,6};
+              ^
+               {     }{    }
+gcc -o Test.exe main.o 
+18:09:23 **** Incremental Build of configuration Debug for project Test ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:19:14: warning: missing braces around initializer [-Wmissing-braces]
+  int R[][3] ={15,2,3,4,5,6};
+              ^
+               {     }{    }
+gcc -o Test.exe main.o 
+18:09:31 **** Incremental Build of configuration Debug for project Test ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:19:14: warning: missing braces around initializer [-Wmissing-braces]
+  int R[][3] ={15,2,3,4,5,6};
+              ^
+               {     }{    }
+gcc -o Test.exe main.o 
+18:10:36 **** Incremental Build of configuration Debug for project Test ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:19:14: warning: missing braces around initializer [-Wmissing-braces]
+  int R[][3] ={15,2,3,4,5,6};
+              ^
+               {     }{    }
+..\main.c: In function 'Increment':
+..\main.c:44:12: error: lvalue required as increment operand
+   *(T[0]+i)++;
+            ^~
+18:10:56 **** Incremental Build of configuration Debug for project Test ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:19:14: warning: missing braces around initializer [-Wmissing-braces]
+  int R[][3] ={15,2,3,4,5,6};
+              ^
+               {     }{    }
+gcc -o Test.exe main.o 
+18:11:28 **** Incremental Build of configuration Debug for project Test ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:19:14: warning: missing braces around initializer [-Wmissing-braces]
+  int R[][3] ={15,2,3,4,5,6};
+              ^
+               {     }{    }
+gcc -o Test.exe main.o 
+18:20:07 **** Incremental Build of configuration Debug for project test2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o test2.exe main.o 
+18:20:19 **** Incremental Build of configuration Debug for project test2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:16:16: error: expected ';' before 'printf'
+  string[6]= 'L'
+                ^
+                ;
+  printf("%s",string);
+  ~~~~~~         
+18:20:25 **** Incremental Build of configuration Debug for project test2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o test2.exe main.o 
+18:21:04 **** Incremental Build of configuration Debug for project test2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:12:17: warning: initializer-string for array of chars is too long
+ char string[7]= "Heshammm";
+                 ^~~~~~~~~~
+gcc -o test2.exe main.o 
+18:21:17 **** Incremental Build of configuration Debug for project test2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o test2.exe main.o 
+18:21:45 **** Incremental Build of configuration Debug for project test2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o test2.exe main.o 
+Info: Nothing to build for test2
+Info: Nothing to build for test2
+18:22:51 **** Incremental Build of configuration Debug for project test2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o test2.exe main.o 
+Info: Nothing to build for test2
+18:23:28 **** Incremental Build of configuration Debug for project test2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o test2.exe main.o 
+18:23:32 **** Incremental Build of configuration Debug for project test2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o test2.exe main.o 
+Info: Nothing to build for test2
+18:27:22 **** Incremental Build of configuration Debug for project test2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o test2.exe main.o 
+18:28:44 **** Incremental Build of configuration Debug for project test2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o test2.exe main.o 
+18:28:52 **** Incremental Build of configuration Debug for project test2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o test2.exe main.o 
+Info: Nothing to build for test2
+18:29:01 **** Incremental Build of configuration Debug for project test2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o test2.exe main.o 
+18:35:13 **** Incremental Build of configuration Debug for project test2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o test2.exe main.o 
+18:37:19 **** Incremental Build of configuration Debug for project test2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o test2.exe main.o 
+18:37:36 **** Incremental Build of configuration Debug for project test2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o test2.exe main.o 
+18:37:40 **** Incremental Build of configuration Debug for project test2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o test2.exe main.o 
+18:37:51 **** Incremental Build of configuration Debug for project test2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o test2.exe main.o 
+19:19:38 **** Incremental Build of configuration Debug for project test2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o test2.exe main.o 
+19:20:12 **** Incremental Build of configuration Debug for project test2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:27:10: warning: format '%s' expects argument of type 'char *', but argument 2 has type 'char (*)[15]' [-Wformat=]
+  scanf("%s",&name);
+         ~^  ~~~~~
+..\main.c:27:10: warning: format '%s' expects argument of type 'char *', but argument 2 has type 'char (*)[15]' [-Wformat=]
+gcc -o test2.exe main.o 
+19:20:39 **** Incremental Build of configuration Debug for project test2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o test2.exe main.o 
+20:18:50 **** Incremental Build of configuration Debug for project Test ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:20:14: warning: format '%p' expects argument of type 'void *', but argument 3 has type 'int' [-Wformat=]
+  printf("%p %p %p %p",R,R[0] , &R[0] , &R );
+             ~^          ~~~~
+             %d
+..\main.c:20:14: warning: format '%p' expects argument of type 'void *', but argument 3 has type 'int' [-Wformat=]
+  printf("%p %p %p %p",R,R[0] , &R[0] , &R );
+             ~^          ~~~~
+             %d
+gcc -o Test.exe main.o 
+20:19:31 **** Incremental Build of configuration Debug for project Test ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:20:20: warning: format '%p' expects a matching 'void *' argument [-Wformat=]
+  printf("%p %p %p %p",R , &R[0] , &R );
+                   ~^
+..\main.c:20:20: warning: format '%p' expects a matching 'void *' argument [-Wformat=]
+gcc -o Test.exe main.o 
+20:19:43 **** Incremental Build of configuration Debug for project Test ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o Test.exe main.o 
+20:20:51 **** Incremental Build of configuration Debug for project Test ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o Test.exe main.o 
+20:21:08 **** Incremental Build of configuration Debug for project Test ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o Test.exe main.o 
+20:35:30 **** Incremental Build of configuration Debug for project Test ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:20:20: warning: format '%p' expects argument of type 'void *', but argument 5 has type 'int' [-Wformat=]
+  printf("%p %p %p %p",&R ,R,R[0],R[0][0])
+                   ~^             ~~~~~~~
+                   %d
+..\main.c:20:20: warning: format '%p' expects argument of type 'void *', but argument 5 has type 'int' [-Wformat=]
+  printf("%p %p %p %p",&R ,R,R[0],R[0][0])
+                   ~^             ~~~~~~~
+                   %d
+..\main.c:20:42: error: expected ';' before 'return'
+  printf("%p %p %p %p",&R ,R,R[0],R[0][0])
+                                          ^
+                                          ;
+..\main.c:22:2:
+  return 0;
+  ~~~~~~                                   
+20:35:34 **** Incremental Build of configuration Debug for project Test ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:20:20: warning: format '%p' expects argument of type 'void *', but argument 5 has type 'int' [-Wformat=]
+  printf("%p %p %p %p",&R ,R,R[0],R[0][0]);
+                   ~^             ~~~~~~~
+                   %d
+..\main.c:20:20: warning: format '%p' expects argument of type 'void *', but argument 5 has type 'int' [-Wformat=]
+  printf("%p %p %p %p",&R ,R,R[0],R[0][0]);
+                   ~^             ~~~~~~~
+                   %d
+gcc -o Test.exe main.o 
+20:35:49 **** Incremental Build of configuration Debug for project Test ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o Test.exe main.o 
+20:37:46 **** Incremental Build of configuration Debug for project Test ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o Test.exe main.o 
+20:37:57 **** Incremental Build of configuration Debug for project Test ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o Test.exe main.o 

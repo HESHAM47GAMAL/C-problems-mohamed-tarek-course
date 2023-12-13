@@ -1,0 +1,16 @@
+19:02:21 **** Incremental Build of configuration Debug for project 2.15 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:15:29: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'long unsigned int' [-Wformat=]
+  printf("Number of ones in %x = %hi", value ,(signed short) calOnes(value) );
+                            ~^         ~~~~~
+                            %lx
+..\main.c:15:29: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'long unsigned int' [-Wformat=]
+  printf("Number of ones in %x = %hi", value ,(signed short) calOnes(value) );
+                            ~^         ~~~~~
+                            %lx
+gcc -o 2.15.exe main.o 
+
+19:02:21 Build Finished. 0 errors, 2 warnings. (took 244ms)
+

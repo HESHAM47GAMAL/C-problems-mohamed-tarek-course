@@ -1,0 +1,28 @@
+/*
+ * main.c
+ *
+ *  Created on: Dec 8, 2023
+ *      Author: moham
+ */
+
+#include <stdio.h>
+
+int GetStringLength(char []);
+
+int main()
+{
+
+	char String [50];
+	printf("Enter string to reverse : "),fflush(stdout);
+	gets(String);
+
+	return 0;
+}
+
+int GetStringLength(char T[])
+{
+	int counter = 0 ;
+
+	for( ; T[counter] != '\0' ; counter++);
+	return counter ;
+}
