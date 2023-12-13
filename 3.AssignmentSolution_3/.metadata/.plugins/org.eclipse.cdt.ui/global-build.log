@@ -1,9 +1,55 @@
-06:53:43 **** Rebuild of configuration Debug for project 3.23 ****
+16:10:10 **** Rebuild of configuration Debug for project test ****
 Info: Internal Builder is used for build
 gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
-gcc -o 3.23.exe main.o 
-Info: Nothing to build for 3.23
-06:54:20 **** Incremental Build of configuration Debug for project 3.23 ****
+..\main.c: In function 'main':
+..\main.c:21:13: error: incompatible types when assigning to type 'struct employee *' from type 'struct employee'
+  ptr_struct = E1;
+             ^
+..\main.c:20:48: warning: variable 'ptr_struct' set but not used [-Wunused-but-set-variable]
+  struct employee E1={23,15000,{27,9,2000}} , * ptr_struct ;
+                                                ^~~~~~~~~~
+16:10:21 **** Incremental Build of configuration Debug for project test ****
 Info: Internal Builder is used for build
 gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
-gcc -o 3.23.exe main.o 
+..\main.c: In function 'main':
+..\main.c:20:48: warning: variable 'ptr_struct' set but not used [-Wunused-but-set-variable]
+  struct employee E1={23,15000,{27,9,2000}} , * ptr_struct ;
+                                                ^~~~~~~~~~
+gcc -o test.exe main.o 
+16:10:49 **** Incremental Build of configuration Debug for project test ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:20:48: warning: unused variable 'ptr_struct' [-Wunused-variable]
+  struct employee E1={23,15000,{27,9,2000}} , * ptr_struct =&E1 ;
+                                                ^~~~~~~~~~
+gcc -o test.exe main.o 
+16:11:16 **** Incremental Build of configuration Debug for project test ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:22:22: error: invalid type argument of '->' (have 'struct employee')
+  printf("age = %d",E1->age);
+                      ^~
+..\main.c:20:48: warning: unused variable 'ptr_struct' [-Wunused-variable]
+  struct employee E1={23,15000,{27,9,2000}} , * ptr_struct =&E1 ;
+                                                ^~~~~~~~~~
+16:11:33 **** Incremental Build of configuration Debug for project test ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o test.exe main.o 
+16:12:31 **** Incremental Build of configuration Debug for project test ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:22:33: error: invalid type argument of '->' (have 'struct date')
+  printf("age = %d",ptr_struct->D->day);
+                                 ^~
+16:12:39 **** Incremental Build of configuration Debug for project test ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o test.exe main.o 
+16:15:31 **** Incremental Build of configuration Debug for project test ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o test.exe main.o 
